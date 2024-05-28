@@ -32,7 +32,7 @@ h6 {
 
 p {
     font-size: 16px;
-    color: white;
+    color: #ccc;
     margin: 15px 0 20px 0;
 }
 
@@ -235,6 +235,135 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #065f59;
+}
+
+#newsletter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+#newsletter p {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+#newsletter p  span{
+    color: yellow;
+}
+
+#newsletter input {
+    height: 3rem;
+    padding: 0 1.2em;
+    font-size: 14px;
+    width: 80%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 25%;
+}
+
+#newsletter button {
+    background-color: #088178;
+    color: white;
+    white-space: nowrap;
+    width: 30%;
+    border: 1px solid transparent;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #065f59;
+    padding: 20px 40px;
+    color: #fff;  
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px; 
+}
+
+footer .logo {
+    margin-bottom: 30px;
+}
+
+footer h4 {
+    font-size: 18px; 
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+footer p {
+    font-size: 16px; 
+    color: #fff;  
+}
+
+footer a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;  
+    margin-bottom: 5px; 
+}
+
+footer .follow .icon i {
+    font-size: 20px; 
+    margin-right: 10px;
+    color: #fff;  
+}
+
+footer .install .row img {
+    width: 100px; 
+    margin-right: 10px;
+}
+
+footer .install p {
+    font-size: 16px;  
+    color: #fff;  
+}
+
+footer p {
+    font-size: 16px;  
+    color: #fff; 
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #054a45;  
+    padding: 10px 0;
+    color: #fff;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
