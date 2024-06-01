@@ -62,7 +62,8 @@ a{
     width: 500px;
 }
 #natureza h3{
-    margin-top: 8vh;
+    margin: 0;
+    top: 8vh;
     color: #23434A;
     font-size: 2.2rem;
 
