@@ -23,6 +23,7 @@ h2{
 h3 {
     color:#065f59;
     font-size: 16px;
+    margin-left: 3.5rem;
     text-align: left;
 }
 
@@ -152,8 +153,11 @@ p {
 
 #feature {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); 
     gap: 20px; 
+    width: 102%;
+    max-width: 1580px; /* Ajuste conforme necessário */
+    margin: 0 auto;
 }
 
 .fe-box {
@@ -161,6 +165,7 @@ p {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
 }
 
 .rounded-image {
@@ -214,6 +219,7 @@ p {
 
 .pro-container {
     display: flex;
+    justify-content: center;
     gap: 40px;
 }
 
