@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#header-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #203F46;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+}
+
+#header-login img {
+    width: 150px;
+    height: auto;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.login-form {
+    border: 0.5px solid rgb(32, 63, 70);
+    border-radius: 5px;
+    padding: 30px 40px;
+}
+
+.login-form h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.login-form .input-login,.input-password {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0; 
+}
+
+.input-login input, .input-password input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px ridge #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-login i, .input-password i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.login-form .esqueceu-a-senha {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.esqueceu-a-senha label input {
+    margin-right: 3px;
+}
+
+.esqueceu-a-senha a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.esqueceu-a-senha a:hover {
+    text-decoration: underline;
+}
+
+.btn-login {
+    width: 100%;
+    height: 45px;
+    background: rgb(32, 63, 70);
+    margin-top: 9px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+}
+
+.login-form .cadastrar-se {
+    text-decoration: none;
+    margin: 10px 0 15px;
+    text-align: center;
+}
+
+.login-form .btn-cadastro {
+    width: 100%;
+    height: 45px;
+    margin-top: 9px;
+    border-radius: 10px;
+    outline: rgb(32, 63, 70);
+    background-color: #fff;
+    color: rgb(32, 63, 70);
+    cursor: pointer;
+    font-size: 16px;
+}
