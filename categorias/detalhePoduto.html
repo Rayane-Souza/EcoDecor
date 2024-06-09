@@ -1,80 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../styles.css" />
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
 </head>
-<body>
-    <section id="header">
-        <a href="#"
-          ><img src="../img/logoEcoDecor.png" class="logo" alt="EcoDecor Logo"
-        /></a>
-  
-        <div>
-          <ul id="navbar">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="">Sobre</a></li>
-            <li class="dropdown">
-              <a href="#">Categorias</a>
-              <ul class="submenu">
-                <li><a href="#">Sala</a></li>
-                <li><a href="#">Quarto</a></li>
-                <li><a href="#">Escritório</a></li>
-                <li><a href="#">Jardim</a></li>
-                <li><a href="#">Cozinha</a></li>
-              </ul>
-            </li>
-            <li><a href="">Contato</a></li>
-            <form id="search-form" action="search.html">
-              <input type="text" placeholder="Buscar produtos..." />
-            </form>
-            <li>
-              <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
-              <a href="cart.html"
-                ><i class="fa-solid fa-heart" style="margin-left: 10px"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </section>
-    <div class = "main-wrapper">
-        <div class = "container">
-            <div class = "product-div">
-                <div class = "product-div-left">
-                    <div class = "img-container">
-                        <img src="../img/salacategoria.jpg" alt = "watch">
-                    </div>
-                </div>
-                <div class = "product-div-right">
-                    <span class = "product-name">Produto Teste </span>
-                    <span class = "product-price">R$ 100,00</span>
-                    <div class = "product-rating">
-                        <span><i class = "fas fa-star"></i></span>
-                        <span><i class = "fas fa-star"></i></span>
-                        <span><i class = "fas fa-star"></i></span>
-                        <span><i class = "fas fa-star"></i></span>
-                        <span><i class = "fas fa-star-half-alt"></i></span>
-                        <span>(350 avaliações)</span>
-                    </div>
-                    <p class = "product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.</p>
-                    <div class = "btn-groups">
-                        <button type = "button" class = "add-cart-btn"><i class = "fas fa-shopping-cart"></i>Adicione ao carrinho</button>
-                        <button type = "button" class = "buy-now-btn"><i class = "fas fa-wallet"></i>Comprar Agora</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <script src = "../script.js"></script>
+<body>
+  <section id="header">
+    <a href="#"><img src="../img/logoEcoDecor.png" class="logo" alt="EcoDecor Logo" /></a>
+
+    <div>
+      <ul id="navbar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="">Sobre</a></li>
+        <li class="dropdown">
+          <a href="#">Categorias</a>
+          <ul class="submenu">
+            <li><a href="#">Sala</a></li>
+            <li><a href="#">Quarto</a></li>
+            <li><a href="#">Escritório</a></li>
+            <li><a href="#">Jardim</a></li>
+            <li><a href="#">Cozinha</a></li>
+          </ul>
+        </li>
+        <li><a href="">Contato</a></li>
+        <form id="search-form" action="search.html">
+          <input type="text" placeholder="Buscar produtos..." />
+        </form>
+        <li>
+          <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href="cart.html"><i class="fa-solid fa-heart" style="margin-left: 10px"></i></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <nav class="localiza">
+    <li class="navega"><a href="../index.html">Home >></a></li>
+    <li class="navega"><a href="">Categorias >></a></li>
+    <li class="navega"><a href="">Jardim >></a></li>
+    <li class="navega"><a href="">Detalhes do produto >></a></li>
+    <li class="local">Jardim suspenço</li>
+  </nav>
+  <section>
+    <div id="detalhes_produto">
+      <div class="img-container">
+        <img src="../img/jardinDetalhes.png" alt="watch">
+        <div id="destaqueImg">
+          <img src="../img/jardinDetalhes.png" alt="">
+          <img src="../img/detalheimag1.png" alt="">
+          <img src="../img/detalheimg2.png" alt="">
+        </div>
+      </div>
+      <div class="product-div-right">
+        <span class="product-name">Produto Teste </span>
+        <ul class="product-rating">
+          <li class="star-icon ativo"data-avaliacao="1"></li>
+          <li class="star-icon"data-avaliacao="2"></li>
+          <li class="star-icon"data-avaliacao="3"></li>
+          <li class="star-icon"data-avaliacao="4"></li>
+          <li class="star-icon"data-avaliacao="5"></li>
+
+          <!-- <span>(350 avaliações)</span> -->
+        </ul>
+          <p class="product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima
+            veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem
+            voluptas.</p>
+          <span class="product-price">R$ 100,00</span>
+        <div class="btn-groups">
+          <button type="button" class="add-cart-btn"><i class="fas fa-shopping-cart"></i>Adicione ao carrinho</button>
+          <button type="button" class="buy-now-btn"><i class="fas fa-wallet"></i>Comprar Agora</button>
+        </div>
+      </div>
+  </section>
+  <section id="product1" class="section-p1">
+    <h3>Mais Vendidos</h3>
+    <div class="pro-container">
+      <div class="pro">
+        <img src="img/salacategoria.jpg" alt="" class="product-image" />
+        <div class="des">
+          <span>EcoDecor</span>
+          <h5>Teste Teste Teste</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>R$150,00</h4>
+        </div>
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro">
+        <img src="img/salacategoria.jpg" alt="" class="product-image" />
+        <div class="des">
+          <span>EcoDecor</span>
+          <h5>Teste Teste Teste</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>R$150,00</h4>
+        </div>
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro">
+        <img src="img/salacategoria.jpg" alt="" class="product-image" />
+        <div class="des">
+          <span>EcoDecor</span>
+          <h5>Teste Teste Teste</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>R$150,00</h4>
+        </div>
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro">
+        <img src="img/salacategoria.jpg" alt="" class="product-image" />
+        <div class="des">
+          <span>EcoDecor</span>
+          <h5>Teste Teste Teste</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>R$150,00</h4>
+        </div>
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>
