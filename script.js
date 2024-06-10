@@ -36,4 +36,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-  
+  import './pages/detalhesProduto';
+import '../pages/score';

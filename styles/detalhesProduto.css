@@ -1,0 +1,344 @@
+body {
+    background: #F6F6F6;
+}
+
+section #detalhes_produto {
+    background: white;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    padding: 2rem 01rem;
+    width: 1350px;
+}
+
+#detalhes_produto {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 45% 45%;
+    gap: 2rem;
+    max-width: 100%;
+}
+
+.img-container li {
+    list-style: none;
+}
+
+.cep0 aside {
+    position: absolute;
+    display: flex;
+    margin: -2.5rem 0 0 2rem;
+    color: #252b2b;
+}
+
+.cep0 p {
+    color: #065f59;
+}
+
+.cep0 span {
+    position: absolute;
+    display: flex;
+    margin: 0.9rem 0 0 5rem;
+}
+
+.cep0 {
+    position: absolute;
+    display: flex;
+    margin: 3.5rem 0 0 0;
+    gap: 16rem;
+}
+
+.transitCar {
+    width: 25px;
+}
+form #endereco{
+    background: #e4e9ea00;
+    border: none;
+    border-style: none;
+    display: inline-block;
+    outline: 0;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    margin: 3.2rem 0 0 17.7rem;
+    width: 18rem;
+    font-size: 0.55rem;
+    height: 2rem;
+    gap: 16rem;
+    align-items: center;
+}
+form #complementoCep{
+    background: #e4e9ea00;
+    border: none;
+    border-style: none;
+    display: inline-block;
+    outline: 0;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    margin: 4.1rem 0 0 17.7rem;
+    width: 18rem;
+    font-size: 0.55rem;
+    height: 2rem;
+    gap: 16rem;
+    align-items: center;
+}
+.cepInput {
+    border: 2px solid #ccc;
+    display: inline-block;
+    padding: 4px;
+}
+
+form #cepInutTxt {
+    width: 14rem;
+    height: 2rem;
+    background: #e4e9ea00;
+    border: none;
+    border-style: none;
+    display: inline-block;
+    outline: 0;
+
+}
+
+form #pesquisarCep {
+    background: royalblue;
+    border: none;
+    color: #fff;
+    padding: 4px 10px
+}
+
+#destaqueImg ul {
+    margin-top: 1.12rem;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    gap: 1.20rem;
+    list-style: none;
+}
+
+.product-div-right {
+    padding: 0.5rem;
+    background: linear-gradient(360deg, white 25%, #E4E9EA 70%);
+
+}
+#posicapD{
+    margin: -2.2rem 0 0 26rem;
+}
+
+.product-name {
+    font-size: 26px;
+    margin-bottom: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    color: #065f59;
+}
+
+.product-description {
+    color: #4d5857;
+    width: 570px;
+}
+.product-price {
+    font-weight: 700;
+    font-size: 24px;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.product-rating {
+    display: flex;
+    align-items: center;
+}
+
+.star-icon {
+    list-style: none;
+    cursor: pointer;
+    color: #ffe500;
+}
+
+.star-icon::before {
+    content: "\2605";
+    font-size: 2rem;
+}
+
+.star-icon.ativo~.star-icon::before {
+    content: "\2606";
+}
+
+.product-rating:hover .star-icon::before {
+    content: "\2605";
+}
+
+.star-icon:hover~.star-icon::before {
+    content: "\2606";
+}
+
+.btn-groups {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    margin-top: 3rem;
+}
+
+#hero button {
+    background-color: #088178;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.parcelamento {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 0.5rem;
+    width: 100%;
+    background: #434b4b2a;
+    background-size: cover, cover;
+    position: relative;
+}
+
+.txtDetalhes {
+    color: #065f5920;
+    font-size: 5rem;
+    margin: 5rem 0 0 9rem;
+    text-shadow: 0 4px 6px rgba(176, 176, 176, 0.2);
+}
+
+.detalhesgrid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "p img";
+    width: 1200px;
+
+}
+
+.detalhesgrid img {
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.detalhesgrid p {
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    width: 450px;
+}
+
+#avaliacaoscore {
+    margin: 0 auto;
+}
+
+#detalhamento img {
+    width: 600px;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.txtparcelamento {
+    color: #065f59;
+    margin-top: 3rem;
+}
+
+.parcelamento p {
+    font-size: 0.8rem;
+    line-height: 0;
+    color: #065f59;
+    margin-left: 2rem;
+}
+
+#hero button:hover {
+    background-color: #065f59;
+}
+
+#controlsScore {
+    color: #065f59;
+    font-size: 1rem;
+    margin: 0.5rem 1rem 0 1rem;
+}
+
+#contador0 {
+    display: flex;
+    gap: 15rem;
+}
+
+.scoreboard--score {
+    align-content: center;
+    margin: 0 1rem 0 1rem;
+}
+
+.scoreboard--controls {
+    display: flex;
+}
+
+.scoreboard {
+    border: 1px solid#065f59;
+    background: #eee;
+}
+
+.scoreboard--controls-button {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.scoreboard--controls-button:hover {
+    background: #ddd;
+}
+
+.scoreboard--controls-button:active {
+    background: #ccc;
+}
+
+.user0 {
+    padding-top: 5rem;
+    display: flex;
+    margin: 0 1rem 0 10rem;
+    align-items: center;
+}
+
+.user0 h6 {
+    font-size: 1.4rem;
+}
+
+.user0 img {
+    margin-right: 1rem;
+    width: 40px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.txtAvaliacao {
+    margin: 0 1rem 8rem 13rem;
+}
+
+.txtAvaliacao p {
+    width: 1000px;
+    color: #065f59;
+    font-size: 1.4rem;
+    letter-spacing: 4px;
+}
+
+.star0 {
+    margin: -1rem 0 0 0;
+}
+
+.linha1 {
+    position: fixed;
+    margin: -18rem 0 0 50%;
+    position: absolute;
+    height: 1300px;
+    border-left: 2px solid #065f59;
+    transform: rotate(90deg);
+}
+
+.linha0 {
+    position: fixed;
+    margin: -63rem 0 0 50%;
+    position: absolute;
+    height: 1300px;
+    border-left: 2px solid #065f59;
+    transform: rotate(90deg);
+}
