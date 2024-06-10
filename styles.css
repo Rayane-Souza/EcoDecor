@@ -89,6 +89,7 @@ p {
     height: auto;
 }
 
+
 #hero{
     background-image: url(img/homeEcoDecor.png);
     height: 90vh;
@@ -156,7 +157,7 @@ p {
     grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); 
     gap: 20px; 
     width: 102%;
-    max-width: 1580px; /* Ajuste conforme necessário */
+    max-width: 1580px; 
     margin: 0 auto;
 }
 
@@ -289,6 +290,31 @@ p {
     white-space: nowrap;
     width: 30%;
     border: 1px solid transparent;
+}
+
+#container-clock {
+    text-align: end;
+    margin-top: 20px;
+}
+
+#clock {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 30px 10px;
+    border-radius: 15px;
+    border: 5px solid rgba(223, 169, 169, 0.02);
+    color: #099178;
+    height: 10vh;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    background-color: white;
+    margin-top: 10px;
+}
+
+#message {
+    font-size: 1.5rem;
+    color: #099178;
 }
 
 footer {
@@ -454,6 +480,60 @@ img{
 .buy-now-btn:hover{
     background-color: #fff;
     color: #000;
+}
+
+#menu-icon {
+    color: white; /* Define a cor do ícone do menu como branca */
+    font-size: 24px; /* Tamanho do ícone */
+}
+
+@media (max-width: 768px) {
+    #menu-icon {
+        display: block; /* Exibe o ícone do menu em telas pequenas */
+    }
+
+    #navbar {
+        display: none; /* Oculta o menu de navegação em telas pequenas */
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #navbar li {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    #navbar.show {
+        display: flex; /* Exibe o menu de navegação quando o ícone do menu é clicado */
+    }
+}
+
+.dropdown:hover .submenu {
+    display: block;
+    position: absolute; /* Evita sobreposição com outros itens */
+    background-color: #203F46; /* Cor de fundo do submenu */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px;
+    z-index: 1000; /* Garante que o submenu apareça acima de outros elementos */
+}
+
+.submenu li {
+    margin-bottom: 5px;
+}
+
+.submenu li a {
+    color: white;
+}
+
+.submenu li a:hover {
+    color: #088178;
+}
+
+#navbar li form {
+    order: 999; /* Coloca o formulário de busca por último */
+    width: 100%;
+    text-align: center;
 }
 
 
