@@ -89,6 +89,7 @@ p {
     height: auto;
 }
 
+
 #hero{
     background-image: url(img/homeEcoDecor.png);
     height: 90vh;
@@ -479,6 +480,60 @@ img{
 .buy-now-btn:hover{
     background-color: #fff;
     color: #000;
+}
+
+#menu-icon {
+    color: white; /* Define a cor do ícone do menu como branca */
+    font-size: 24px; /* Tamanho do ícone */
+}
+
+@media (max-width: 768px) {
+    #menu-icon {
+        display: block; /* Exibe o ícone do menu em telas pequenas */
+    }
+
+    #navbar {
+        display: none; /* Oculta o menu de navegação em telas pequenas */
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #navbar li {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    #navbar.show {
+        display: flex; /* Exibe o menu de navegação quando o ícone do menu é clicado */
+    }
+}
+
+.dropdown:hover .submenu {
+    display: block;
+    position: absolute; /* Evita sobreposição com outros itens */
+    background-color: #203F46; /* Cor de fundo do submenu */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px;
+    z-index: 1000; /* Garante que o submenu apareça acima de outros elementos */
+}
+
+.submenu li {
+    margin-bottom: 5px;
+}
+
+.submenu li a {
+    color: white;
+}
+
+.submenu li a:hover {
+    color: #088178;
+}
+
+#navbar li form {
+    order: 999; /* Coloca o formulário de busca por último */
+    width: 100%;
+    text-align: center;
 }
 
 
