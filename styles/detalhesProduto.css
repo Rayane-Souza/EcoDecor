@@ -50,14 +50,45 @@ section #detalhes_produto {
 .transitCar {
     width: 25px;
 }
-
+form #endereco{
+    background: #e4e9ea00;
+    border: none;
+    border-style: none;
+    display: inline-block;
+    outline: 0;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    margin: 3.2rem 0 0 17.7rem;
+    width: 18rem;
+    font-size: 0.55rem;
+    height: 2rem;
+    gap: 16rem;
+    align-items: center;
+}
+form #complementoCep{
+    background: #e4e9ea00;
+    border: none;
+    border-style: none;
+    display: inline-block;
+    outline: 0;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    margin: 4.1rem 0 0 17.7rem;
+    width: 18rem;
+    font-size: 0.55rem;
+    height: 2rem;
+    gap: 16rem;
+    align-items: center;
+}
 .cepInput {
     border: 2px solid #ccc;
     display: inline-block;
     padding: 4px;
 }
 
-form .cepInutTxt {
+form #cepInutTxt {
     width: 14rem;
     height: 2rem;
     background: #e4e9ea00;
@@ -68,7 +99,7 @@ form .cepInutTxt {
 
 }
 
-form .pesquisarCep {
+form #pesquisarCep {
     background: royalblue;
     border: none;
     color: #fff;
