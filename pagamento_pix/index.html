@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Rock+Salt|Source+Code+Pro:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../styles.css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="qrcode.js"></script>
+    <title>Pix</title>
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="../img/logoEcoDecor.png" class="logo" alt="EcoDecor Logo" /></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./categorias/sobre.html">Sobre</a></li>
+                <li class="dropdown">
+                    <a href="#">Categorias</a>
+                    <ul class="submenu">
+                        <li><a href="#">Sala</a></li>
+                        <li><a href="#">Quarto</a></li>
+                        <li><a href="#">Escritório</a></li>
+                        <li><a href="#">Jardim</a></li>
+                        <li><a href="#">Cozinha</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Contato</a></li>
+                <form id="search-form" action="search.html">
+                    <input type="text" placeholder="Buscar produtos..." />
+                </form>
+                <li>
+                    <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="cart.html"><i class="fa-solid fa-heart"></i></a>
+                    <a href="user.html"><i class="fa-solid fa-user"></i></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="container-pix">
+        <div class="iproduto-pix">
+            <img src="../img/Abajour bambu 1.png" alt="">
+
+        </div>
+
+        <div class="infoproduto-pix">
+            <h3>Abajur de fibras de palha</h3>
+            <p>O abajur de fibras de palha é uma peça confeccionada com a palha de coqueiro, de milho ou de bananeira. No primeiro caso, esse artesanato é feito de maneira totalmente manual, que engloba a retirada do cangaço do pé do coqueiro e depois sua limpeza para a retirada das fibras.</p>
+            <span class="price">Preço: R$ 9,99</span>
+            <span class="price1">Frete: R$ 4,90</span>
+            <span class="price2">_________</span>
+            <span class="price3">Total: R$ 14,89</span>
+
+        </div>
+
+        <div class="qrcode-pix">
+
+            <h3>Escaneie este código QR para pagar</h3>
+            <p id="px1">1. Acesse seu Internet Banking ou app de pagamentos.</p>
+            <p>2. Escolha pagar via Pix.</p>
+            <p>3. Escaneie o seguinte código:</p>
+
+            <div id="qrcode">
+            </div>
+        </div>
+
+        <div class="copycode-pix">
+            <h3>Ou copie este código para fazer o pagamento</h3>
+            <p id="px2">Escolha pagar via Pix pelo seu Internet Banking ou app de pagamentos. <br> Depois, cole o seguinte código:</p>
+            <div class="link-pix">
+                <p id="px3">
+                    <span>
+                        00020126540014br.gov.bcb.pix0132pix_marketplace@ecodecor.com5204000053039865406124.455802BR5916VIRTUOSAFASHIOON6008So Paulo62240520mpqrinter8019245753863042F13
+                    </span>
+                    <button>Copiar</button>
+                </p>
+            </div>
+            <div class="back-pix0">
+                <button class="back-pix">Voltar</button>
+            </div>
+            
+        </div>
+    
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src="./script.js"></script>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="../img/logoEcoDecor.png" alt="">
+            <h4>Contato</h4>
+            <p><strong>Endereço: </strong> 245 Teste Endereco, Rua 32, Não sei</p>
+            <p><strong>Telefone:</strong> 10:00 - 18:00, Seg - Sáb</p>
+            <div class="follow">
+                <h4>Siga-nos</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Sobre</h4>
+            <a href="#">Sobre nós</a>
+            <a href="#">Serviços</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos e Condições</a>
+            <a href="#">Carreiras</a>
+        </div>
+        <div class="col">
+            <h4>Minha Conta</h4>
+            <a href="#">Inscrever-se</a>
+            <a href="#">Login</a>
+            <a href="#">Minha Conta</a>
+            <a href="#">Pedidos</a>
+            <a href="#">Ajuda</a>
+        </div>
+        <div class="col install">
+            <h4>Instale o App</h4>
+            <p>Na App Store ou Google Play</p>
+            <div class="row">
+                <img src="../img/app.jpg" alt="">
+                <img src="../img/play.jpg">
+            </div>
+            <p>Formas de Pagamento Seguras</p>
+            <img src="../img/pay.png">
+        </div>
+    </footer>
+
+</body>
+
+</html>

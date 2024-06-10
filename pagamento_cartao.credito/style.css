@@ -1,71 +1,59 @@
-/* body {
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-    justify-content: center;
-    min-height: 100vh;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    font-family: 'Raleway';
-} */
-.main{
+.main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+
 }
-.iproduto img{
+
+.iproduto img {
     margin-left: 6.2%;
     margin-top: 5%;
     width: 65%;
     border-radius: 15px;
 }
-.infoproduto{
-  
+
+.infoproduto {
+
     margin-top: 5%;
     margin-left: -22%;
     width: 51.5%;
     color: #0a0000;
     font-size: 15px;
 }
-.infoproduto p{
+
+.infoproduto p {
     color: black;
     margin-left: 2%;
 }
-.infoproduto fieldset{
+
+.infoproduto fieldset {
     height: 60%;
 }
-.preco{
+
+.preco {
     display: flex;
     margin-top: 4%;
     margin-left: 76%;
     color: black;
     font-weight: bold;
 }
-.preco1{
+
+.preco1 {
     display: flex;
     margin-top: 1%;
     margin-left: 76%;
     color: black;
     font-weight: bold;
 }
-.preco2{
+
+.preco2 {
     display: flex;
     margin-top: -4%;
     margin-left: 76%;
     color: black;
     font-weight: bold;
 }
-.preco3{
+
+.preco3 {
     margin-left: 75%;
     color: black;
     font-weight: bold;
@@ -406,7 +394,8 @@ input {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
-.end1{
+
+.end1 {
     justify-content: center;
     margin-top: 90%;
     margin-left: -95%;
@@ -415,16 +404,18 @@ input {
     border-radius: 5px;
     font-size: 15px;
     color: rgb(255, 255, 255);
-    background-color:#203F46;
+    background-color: #203F46;
     transition: background-color 0.6s ease, color 0.5s ease, transform 0.5s ease;
 }
-.end1:hover{
+
+.end1:hover {
     background-color: #088178;
     color: rgb(255, 255, 255);
     font-weight: bold;
     transform: scale(1.2)
 }
-.end2{
+
+.end2 {
     justify-content: center;
     margin-top: 90%;
     margin-left: 10%;
@@ -436,8 +427,9 @@ input {
     background-color: #203F46;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
 }
-.end2:hover{
-    background-color:#088178;
+
+.end2:hover {
+    background-color: #088178;
     color: rgb(255, 255, 255);
     font-weight: bold;
     transform: scale(1.2)
