@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+
+<body>
+  <section id="header">
+    <a href="#"><img src="../img/logoEcoDecor.png" class="logo" alt="EcoDecor Logo" /></a>
+
+    <div>
+      <ul id="navbar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="">Sobre</a></li>
+        <li class="dropdown">
+          <a href="#">Categorias</a>
+          <ul class="submenu">
+            <li><a href="#">Sala</a></li>
+            <li><a href="#">Quarto</a></li>
+            <li><a href="#">Escritório</a></li>
+            <li><a href="#">Jardim</a></li>
+            <li><a href="#">Cozinha</a></li>
+          </ul>
+        </li>
+        <li><a href="">Contato</a></li>
+        <form id="search-form" action="search.html">
+          <input type="text" placeholder="Buscar produtos..." />
+        </form>
+        <li>
+          <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href="cart.html"><i class="fa-solid fa-heart" style="margin-left: 10px"></i></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <nav class="localiza">
+    <li class="navega"><a href="../index.html">Home >></a></li>
+    <li class="navega"><a href="#">Categorias >></a></li>
+    <li class="navega"><a href="#">Jardim >></a></li>
+    <li class="navega"><a href="#">Detalhes do produto >></a></li>
+    <li class="local">Jardim Suspenso</li>
+  </nav>
+  <section>
+    <div id="detalhes_produto">
+      <div class="img-container">
+        <img id="imgPrincipal" src="../img/jardinDetalhes.png" alt="watch">
+        <div id="destaqueImg">
+          <ul>
+            <li><img src="../img/jardinDetalhes.png" alt=""></li>
+            <li><img src="../img/detalheimag1.png" alt=""></li>
+            <li><img src="../img/detalheimg2.png" alt=""></li>
+          </ul>
+        </div>
+      </div>
+      <div class="product-div-right">
+        <span class="product-name">Jardim Suspenso para Varanda</span>
+        <span>(350 avaliações)</span>
+        <figure id="posicapD">
+          <ul class="product-rating">
+            <li class="star-icon ativo" data-avaliacao="1"></li>
+            <li class="star-icon" data-avaliacao="2"></li>
+            <li class="star-icon" data-avaliacao="3"></li>
+            <li class="star-icon" data-avaliacao="4"></li>
+            <li class="star-icon" data-avaliacao="5"></li>
+
+          </ul>
+        </figure>
+        <p class="product-description">Transforme Sua Varanda em um Oásis Verde
+          Dê vida ao seu espaço ao ar livre com nosso Jardim Suspenso para Varanda. Projetado para amantes da natureza e
+          entusiastas de design, este jardim vertical é a solução perfeita para aqueles que querem maximizar o uso de
+          pequenos espaços enquanto adicionam um toque de frescor e beleza à sua varanda.</p>
+        <article id="contador0">
+          <div class="scoreboard">
+            <div class="scoreboard--controls">
+              <button class="scoreboard--controls-button" onclick="decrementScore('controls')">-</button>
+              <p id="controlsScore">1</p>
+              <button class="scoreboard--controls-button" onclick="incrementScore('controls')">+</button>
+            </div>
+          </div>
+          <span class="product-price" id="productPrice">R$ 116,46</span>
+          <figure class="cep0">
+            <div>
+              <img class="transitCar" src="https://img.icons8.com/wired/64/in-transit.png" alt="in-transit" />
+              <aside>
+                <p>Calcule o </p>
+                <span>Frete</span>
+              </aside>
+            </div>
+            <form class="cepInput" method="post">
+              <input class="cepInutTxt" type="text" name="pesquisa" placeholder="Insira seu CEP..." />
+              <button class="pesquisarCep" type='submit'>OK</button>
+            </form>
+          </figure>
+        </article>
+        <h4 class="txtparcelamento">PARCELAMENTO</h4>
+        <div class="parcelamento">
+          <p>1x de R$116,46 (com 10% de desconto)</p>
+          <p>7x de R$18,49 (sem juros)</p>
+          <p>2x de R$61,47 (com 5% de desconto)</p>
+          <p>8x de R$16,18 (sem juros)</p>
+          <p>3x de R$40,98 (com 5% de desconto)</p>
+          <p>9x de R$14,38 (sem juros)</p>
+          <p>4x de R$31,38 (com 3% de desconto)</p>
+          <p>10x de R$12,94 (sem juros)</p>
+          <p>5x de R$25,10 (com 3% de desconto)</p>
+          <p>11x de R$11,76 (sem juros)</p>
+          <p>6x de R$20,92 (com 3% de desconto)</p>
+          <p>12x de R$10,78 (sem juros)</p>
+        </div>
+        <div class="btn-groups">
+          <button type="button" class="add-cart-btn"><i class="fas fa-shopping-cart"></i>Adicione ao carrinho</button>
+          <button type="button" class="buy-now-btn"><i class="fas fa-wallet"></i>Comprar Agora</button>
+        </div>
+      </div>
+  </section>
+  <section id="product1" class="section-p1">
+    <h3>Populares</h3>
+    <div class="pro-container">
+      <div class="pro">
+        <img src="img/salacategoria.jpg" alt="" class="product-image" />
+        <div class="des">
+          <span>EcoDecor</span>
+          <h5>Teste Teste Teste</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>R$150,00</h4>
+        </div>
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro">
+        <img src="img/salacategoria.jpg" alt="" class="product-image" />
+        <div class="des">
+          <span>EcoDecor</span>
+          <h5>Teste Teste Teste</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>R$150,00</h4>
+        </div>
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro">
+        <img src="img/salacategoria.jpg" alt="" class="product-image" />
+        <div class="des">
+          <span>EcoDecor</span>
+          <h5>Teste Teste Teste</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>R$150,00</h4>
+        </div>
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div class="pro">
+        <img src="img/salacategoria.jpg" alt="" class="product-image" />
+        <div class="des">
+          <span>EcoDecor</span>
+          <h5>Teste Teste Teste</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>R$150,00</h4>
+        </div>
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+    </div>
+  </section>
+  <section id="detalhamento">
+    <h2 class="txtDetalhes">Detalhes</h2>
+    <figure class="detalhesgrid">
+      <p>Mais do que uma simples tendência, o design sustentável representa uma profunda mudança de paradigma,
+        convidando-nos a repensar nossa relação com a natureza e a integrá-la como elemento fundamental do processo
+        criativo. Montar seu jardim suspenso nunca foi tão fácil. O sistema de fixação simplificado permite que você
+        instale seu jardim vertical em minutos, sem necessidade de ferramentas complicadas. Além disso, o design modular
+        facilita a manutenção e o replantio, permitindo que você reorganize ou substitua suas plantas com facilidade.
+      </p>
+      <img src="../img/jardinDetalhes.png" alt="">
+    </figure>
+  </section>
+  <section id="avaliacaoscore">
+    <h2 class="txtDetalhes">Avaliação do Produto</h2>
+    <div class="linha1"></div>
+    <div class="user0">
+      <img src="../img/imguser.png" alt="">
+      <h6>Maria Beatriz Rodrigues de Lima Pinho</h6>
+    </div>
+    <article class="txtAvaliacao">
+      <aside class="star0">
+        <ul class="product-rating">
+          <li class="star-icon ativo" data-avaliacao="1"></li>
+          <li class="star-icon" data-avaliacao="2"></li>
+          <li class="star-icon" data-avaliacao="3"></li>
+          <li class="star-icon" data-avaliacao="4"></li>
+          <li class="star-icon" data-avaliacao="5"></li>
+        </ul>
+      </aside>
+      <p>Transformei minha pequena varanda em um verdadeiro jardim urbano. Adoro a praticidade e o design do Jardim
+        Suspenso para Varanda!</p>
+    </article>
+    <div class="linha0"></div>
+    <div class="user0">
+      <img src="../img/imguser.png" alt="">
+      <h6>Lara Nascimento</h6>
+    </div>
+    <article class="txtAvaliacao">
+      <aside class="star0">
+        <ul class="product-rating">
+          <li class="star-icon ativo" data-avaliacao="1"></li>
+          <li class="star-icon" data-avaliacao="2"></li>
+          <li class="star-icon" data-avaliacao="3"></li>
+          <li class="star-icon" data-avaliacao="4"></li>
+          <li class="star-icon" data-avaliacao="5"></li>
+        </ul>
+      </aside>
+      <p>É incrível como um produto pode mudar completamente o ambiente. Minhas plantas nunca estiveram tão vibrantes!
+      </p>
+    </article>
+  </section>
+  <footer class="section-p1">
+    <div class="col">
+      <img class="logo" src="../img/logoEcoDecor.png" alt="">
+      <h4>Contato</h4>
+      <p><strong>Endereço: </strong> 245 Teste Endereco, Rua 32, Não sei</p>
+      <p><strong>Telefone:</strong> 10:00 - 18:00, Seg - Sáb</p>
+      <div class="follow">
+        <h4>Siga-nos</h4>
+        <div class="icon">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>Sobre</h4>
+      <a href="#">Sobre nós</a>
+      <a href="#">Serviços</a>
+      <a href="#">Política de Privacidade</a>
+      <a href="#">Termos e Condições</a>
+      <a href="#">Carreiras</a>
+    </div>
+    <div class="col">
+      <h4>Minha Conta</h4>
+      <a href="#">Inscrever-se</a>
+      <a href="#">Login</a>
+      <a href="#">Minha Conta</a>
+      <a href="#">Pedidos</a>
+      <a href="#">Ajuda</a>
+    </div>
+    <div class="col install">
+      <h4>Instale o App</h4>
+      <p>Na App Store ou Google Play</p>
+      <div class="row">
+        <img src="../img/app.jpg" alt="">
+        <img src="../img/play.jpg">
+      </div>
+      <p>Formas de Pagamento Seguras</p>
+      <img src="../img/pay.png">
+    </div>
+  </footer>
+  <div class="copyright">
+    <p>&copy; 2024 EcoDecor. Todos os direitos reservados.</p>
+  </div>
+
+  <script src="../pages/score.js"></script>
+  <script src="../pages/detalhesProduto.js"></script>
+
+</body>
+
+</html>
