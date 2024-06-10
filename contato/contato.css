@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #224249;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #426E74;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.contato-titulo {
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+
+.api-email {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.rotulo {
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 2px;
+}
+
+.campo {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 10px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus {
+    border-radius: 16px;
+}
+
+.mensagem {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 20px;
+    transition: all 0,5s;
+}
+
+.mensagem:focus {
+    border-radius: 16px;
+}
+
+.enviar-contato {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background: #f5f5f5;
+    color: #224249;
+    border-radius: 16px;
+    font-weight: bold;
+}
+
+.agradecimento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #224249;
+    flex-direction: column;
+}
+
+.agradecimento-titulo {
+    font-size: 45px;
+    color: #f5f5f5;
+    margin-bottom: 30px;
+}
+
+.paragrafo {
+    color: #f5f5f5;
+    margin-bottom: 50px;
+}
+
+.btn-contato {
+    padding: 15px 55px;
+    background: #f5f5f5;
+    text-decoration: none;
+    color: #224249;
+    font-size: 18px;
+    transition: all 1s;
+}
+.btn:hover{
+    border-radius: 16px;
+}
