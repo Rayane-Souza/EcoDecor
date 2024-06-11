@@ -378,18 +378,9 @@ img{
     display: block;
 }
 
-
-
-
-
-
 .product-div-right span{
     display: block;
 }
-
-
-
-
 
 .btn-groups button{
     display: inline-block;
@@ -423,17 +414,17 @@ img{
 }
 
 #menu-icon {
-    color: white; /* Define a cor do ícone do menu como branca */
-    font-size: 24px; /* Tamanho do ícone */
+    color: white; 
+    font-size: 24px; 
 }
 
 @media (max-width: 768px) {
     #menu-icon {
-        display: block; /* Exibe o ícone do menu em telas pequenas */
+        display: block; 
     }
 
     #navbar {
-        display: none; /* Oculta o menu de navegação em telas pequenas */
+        display: none; 
         flex-direction: column;
         width: 100%;
     }
@@ -445,17 +436,17 @@ img{
     }
 
     #navbar.show {
-        display: flex; /* Exibe o menu de navegação quando o ícone do menu é clicado */
+        display: flex; 
     }
 }
 
 .dropdown:hover .submenu {
     display: block;
-    position: absolute; /* Evita sobreposição com outros itens */
-    background-color: #203F46; /* Cor de fundo do submenu */
-    border-radius: 5px; /* Bordas arredondadas */
+    position: absolute; 
+    background-color: #203F46; 
+    border-radius: 5px; 
     padding: 10px;
-    z-index: 1000; /* Garante que o submenu apareça acima de outros elementos */
+    z-index: 1000; 
 }
 
 .submenu li {
@@ -471,14 +462,24 @@ img{
 }
 
 #navbar li form {
-    order: 999; /* Coloca o formulário de busca por último */
+    order: 999; 
     width: 100%;
     text-align: center;
 }
 
 
 
+@media (max-width: 768px) {
+    .fe-box {
+        flex: 1 1 calc(50% - 20px); 
+    }
+}
 
+@media (max-width: 480px) {
+    .fe-box {
+        flex: 1 1 calc(100% - 20px); 
+    }
+}
 
 
 
