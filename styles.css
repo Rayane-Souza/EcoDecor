@@ -163,9 +163,16 @@ p {
     height: 100px;
 }
 
-.categorias  {
+.categorias {
     text-decoration: none;
 }
+
+@media (max-width: 480px) {
+    #feature {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 
 #product1 {
     text-align: center;
@@ -467,19 +474,6 @@ img{
     text-align: center;
 }
 
-
-
-@media (max-width: 768px) {
-    .fe-box {
-        flex: 1 1 calc(50% - 20px); 
-    }
-}
-
-@media (max-width: 480px) {
-    .fe-box {
-        flex: 1 1 calc(100% - 20px); 
-    }
-}
 
 
 
