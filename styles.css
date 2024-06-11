@@ -142,9 +142,9 @@ p {
 
 #feature {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(209px, 1fr)); 
     gap: 20px; 
-    width: 102%;
+    width: 100%;
     max-width: 1580px; 
     margin: 0 auto;
 }
