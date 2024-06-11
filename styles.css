@@ -39,6 +39,11 @@ p {
     margin: 15px 0 20px 0;
 }
 
+#hero p {
+    color: wheat;
+
+}
+
 .section-p1 {
     padding: 40px 80px;
 }
@@ -90,7 +95,6 @@ p {
     height: auto;
 }
 
-
 #hero{
     background-image: url(img/homeEcoDecor.png);
     height: 90vh;
@@ -103,8 +107,6 @@ p {
     align-items: flex-start;
     justify-content: center;
 }
-
-
 
 #search-form input[type="text"] {
     border-radius: 6px; 
