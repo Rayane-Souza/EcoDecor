@@ -41,7 +41,6 @@ p {
 
 #hero p {
     color: wheat;
-
 }
 
 .section-p1 {
@@ -52,12 +51,25 @@ p {
     margin: 40px 0;
 }
 
+#hero{
+    background-image: url(img/homeEcoDecor.png);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 #header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: linear-gradient(145deg, #203F46, #335960, #426E74, #66A0A5);
+    background: #203F46;
     z-index: 999;
     position: sticky;
     top: 0;
@@ -95,25 +107,12 @@ p {
     height: auto;
 }
 
-#hero{
-    background-image: url(img/homeEcoDecor.png);
-    height: 90vh;
-    width: 100%;
-    background-size: cover;
-    background-position: top 25% right 0;
-    padding: 0 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-
 #search-form input[type="text"] {
-    border-radius: 6px; 
+    border-radius: 20px; 
     outline: none;
     width: 200px;
     border: 1px solid #ccc;
-    padding: 4px 4px 4px 4px;
+    padding: 10px;
 }
 
 .dropdown:hover .submenu {
@@ -142,6 +141,33 @@ p {
     color: #088178;
 }
 
+.dropdown:hover .submenu {
+    display: block;
+    background-color: #203F46; 
+    border-radius: 5px; 
+    padding: 10px;
+    z-index: 1000; 
+}
+
+#navbar li form {
+    order: 999; 
+    width: 100%;
+    text-align: center;
+}
+
+#menu-icon-hamburguer {
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.icons a {
+    margin-right: 10px;
+    color: white;
+}
+
+
 #feature {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(209px, 1fr)); 
@@ -168,13 +194,6 @@ p {
 .categorias {
     text-decoration: none;
 }
-
-@media (max-width: 480px) {
-    #feature {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
 
 #product1 {
     text-align: center;
@@ -422,67 +441,83 @@ img{
     color: #000;
 }
 
-#menu-icon {
-    color: white; 
-    font-size: 24px; 
-}
 
 @media (max-width: 768px) {
-    #menu-icon {
-        display: block; 
-    }
-
     #navbar {
-        display: none; 
+        display: none;
         flex-direction: column;
+        position: absolute;
+        top: 60px; 
+        right: 0;
+        background-color: #203F46;
         width: 100%;
+        padding: 20px;
     }
-
-    #navbar li {
-        width: 100%;
-        text-align: center;
-        margin: 5px 0;
-    }
-
     #navbar.show {
-        display: flex; 
+        display: flex;
+    }
+    #navbar li {
+        padding: 10px 0;
+    }
+    #menu-icon-hamburguer {
+        display: block;
+    }
+    #search-form {
+        order: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    #search-form input[type="text"] {
+        width: 90%;
+    }
+    .icons {
+        order: 2;
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 }
 
-.dropdown:hover .submenu {
-    display: block;
-    position: absolute; 
-    background-color: #203F46; 
-    border-radius: 5px; 
-    padding: 10px;
-    z-index: 1000; 
+@media (max-width: 480px) {
+    #feature {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
-.submenu li {
-    margin-bottom: 5px;
+#hero h2,
+#hero h1,
+#hero p,
+#hero button {
+    margin: 0;
+}
+@media (max-width: 600px) {
+    #hero {
+        padding: 0 10px; 
+    }
+
+    #hero h2 {
+        font-size: 32px; 
+    }
+
+    #hero h1 {
+        font-size: 32px; 
+    }
+
+    #hero p {
+        font-size: 19px; 
+    }
+
 }
 
-.submenu li a {
-    color: white;
+@media (max-width: 600px) {
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 13px;
+        padding: 0 10px;
+    }
 }
-
-.submenu li a:hover {
-    color: #088178;
-}
-
-#navbar li form {
-    order: 999; 
-    width: 100%;
-    text-align: center;
-}
-
-
-
-
-
-
-
-
 
 
 
