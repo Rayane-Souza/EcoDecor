@@ -5,12 +5,15 @@
     gap: 1.5rem;
     margin: 1rem 0rem 0 5.5rem;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 .navega a {
     color: #436F75;
 }
+
 .local {
     color: #595959;
 }
@@ -20,7 +23,7 @@ a{
     height: 38rem;
     margin: 1rem auto;
     border-radius: 0.4rem;
-    box-shadow:0 8px 18px gray;
+    box-shadow: 0 8px 18px gray;
     background: linear-gradient(145deg, #203F46 18%, #335960, #426E74, #66A0A5);
     display: flex;
     flex-direction: column;
@@ -28,27 +31,32 @@ a{
     position: relative;
 }
 
-#destaque h5{
+#destaque h5 {
     margin: 1rem 0rem 0 -55rem;
     font-size: 1.5rem;
     line-height: 0.5;
     color: #436F75;
 }
-#destaque h4{
+
+#destaque h4 {
     width: 680px;
     line-height: 1.4;
     font-size: 4rem;
     margin: 1rem 0rem 0 -55rem;
     text-align: left;
     color: #C8B519;
-    text-shadow:0 5px 8px rgb(66, 56, 56);
+    text-shadow: 0 5px 8px rgb(66, 56, 56);
 }
-#destaque, #box_SerNatureza, .natureza{
+
+#destaque,
+#box_SerNatureza,
+.natureza {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#box_SerNatureza{
+
+#box_SerNatureza {
     position: fixed;
     position: absolute;
     border-radius: 0.5rem;
@@ -57,52 +65,61 @@ a{
     height: 38rem;
     background: linear-gradient(90deg, white 60%, #66A0A5 40%);
 }
-#natureza{
+
+#natureza {
     margin: 1rem 0rem 0 -45rem;
     width: 500px;
 }
-#natureza h3{
+
+#natureza h3 {
     margin: 0;
     top: 8vh;
     color: #23434A;
     font-size: 2.2rem;
 
 }
-#box-container{
+
+#box-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-block-size: 150%;
-    margin:0 auto;
+    margin: 0 auto;
     position: fixed;
 
 }
-#natureza h6{
+
+#natureza h6 {
     color: #23434A;
     font-size: 1.36rem;
 }
-#natureza p{
+
+#natureza p {
     margin-top: 5rem;
     color: #23434A;
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 2;
 }
-.sobre_img1{
+
+.sobre_img1 {
     position: absolute;
     border-radius: 1rem;
     top: 5%;
     width: 38rem;
     height: 38rem;
 }
-#finalDestaque{
+
+#finalDestaque {
     position: absolute;
     top: 225%;
     width: 100rem;
 }
-.sobre_img2{
+
+.sobre_img2 {
     border-radius: 0.5rem;
 }
-.img2_txt{
+
+.img2_txt {
     width: 469px;
     color: #23434A;
     font-weight: 600;
@@ -111,7 +128,8 @@ a{
     position: relative;
     margin: -30rem 0 0 58rem;
 }
-#evidencias{
+
+#evidencias {
     margin-top: 100rem;
     height: 35rem;
     justify-content: center;
@@ -122,51 +140,322 @@ a{
     text-align: center;
     list-style: none;
 }
-#evidencias span{
+
+#evidencias span {
     color: #23434A;
     font-size: 1.5rem;
     font-weight: 800;
 }
-#evidencias img{
+
+#evidencias img {
     position: relative;
     max-width: 100%;
 }
 
-#conheçaNossaHistoria{
+#conheçaNossaHistoria {
     margin-top: 5rem;
     display: grid;
     grid-template-columns: 1fr 30% 1fr;
 }
-#conheçaNossaHistoria h1{
+
+#conheçaNossaHistoria h1 {
     color: #203F46;
     text-align: end;
     padding-right: 8rem;
     margin: 2rem 0 0 20rem;
 }
-#conheçaNossaHistoria p{
+
+#conheçaNossaHistoria p {
     color: #203F46;
     width: 850px;
     padding-left: 8rem;
 }
+
 .linha-vertical {
     height: 500px;
     border-left: 2px solid;
     margin: 0 0 5rem 0;
-  }
-.linha-vertical h6{
+}
+
+.linha-vertical h6 {
     width: 900px;
     margin-top: 2rem;
     padding-left: 8rem;
     font-size: 1rem;
 }
+
 @media screen and (min-width: 500px) and (max-width: 997px) {
     .navega a {
         font-size: 0.7rem;
         margin: 0 0 0 -1rem;
     }
-    .local{
+
+    .local {
         padding-top: 0.3rem;
         font-size: 0.7rem;
         margin: 0 0 0 -1rem;
     }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1787px) {
+
+    #destaque h4,
+    #destaque h5 {
+        margin: 1rem 0rem 0 -40rem;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1487px) {
+
+    #destaque h4,
+    #destaque h5 {
+        margin: 0rem 0rem 0 0rem;
+        text-align: center;
+    }
+
+    #destaque h4 {
+        width: 900px;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+    #destaque h4 {
+        font-size: 2rem;
+        width: 390px;
+    }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1655px) {
+    #box_SerNatureza {
+        width: 80rem;
+        height: 34rem;
+    }
+    .sobre_img1 {
+        top: 8rem;
+        width: 28rem;
+        height: 28rem;
+    }
+    #natureza {
+        margin: 1rem 0rem 0 -35rem;
+    }
+}
+@media screen and (min-width: 927px) and (max-width: 1250px) {
+    #box_SerNatureza {
+        width: 65rem;
+        height: 34rem;
+    }
+    #natureza h6.txt1 {
+        font-size: 0.7rem;
+    }
+    #natureza h3.txt0 {
+        margin-left: -2.5rem;
+        font-size: 1.3rem;
+    }
+    .sobre_img1 {
+        top: 8rem;
+        width: 28rem;
+        height: 28rem;
+    }
+    #natureza p {
+        font-size: 0.8rem;
+        width: 330px;
+    }
+    #natureza {
+        margin: 1rem 0rem 0 -23rem;
+    }
+}
+@media screen and (min-width: 757px) and (max-width: 927px) {
+    #box_SerNatureza {
+        width: 65rem;
+        height: 34rem;
+    }
+    div img.sobre_img1 {
+        top: 8rem;
+        left: 33rem;
+        width: 18rem;
+        height: 18rem;
+    }
+    #natureza p {
+        font-size: 0.8rem;
+        width: 330px;
+    }
+    #natureza {
+        margin: 1rem 0rem 0 -13rem;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 757px) {
+    #box_SerNatureza {
+        width: 45rem;
+        height: 24rem;
+    }
+    div img.sobre_img1 {
+        top: 8rem;
+        left: 22rem;
+        width: 18rem;
+        height: 18rem;
+    }
+    #natureza p {
+        font-size: 0.7rem;
+        width: 250px;
+    }
+    #natureza {
+        margin: 1rem 0rem 0 -4rem;
+    }
+    
+}
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    #box_SerNatureza {
+        width: 35rem;
+        height: 24rem;
+    }
+    div img.sobre_img1 {
+        top: 5rem;
+        left: 3.5rem;
+        width: 14rem;
+        height: 14rem;
+    }
+    #natureza h6.txt1 {
+        font-size: 0.7rem;
+    }
+    #natureza h3.txt0 {
+        margin-left: -2.5rem;
+        font-size: 1.3rem;
+    }
+    #natureza p {
+        font-size: 0.7rem;
+        width: 380px;
+        padding-left: 15rem;
+        color: white;
+    }
+    #natureza {
+        margin: 0rem 0rem 0 9rem;
+    }
+}
+@media screen and (min-width: 1300px) and (max-width: 1630px) {
+    img.sobre_img2 {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1300px) {
+    img.sobre_img2 {
+        width: 58%;
+        margin: 0 auto;
+    }
+    #bodySobre{
+        background: white;
+    }
+    .img2_txt {
+        right: 5rem;
+        width: 350px;
+        padding-top: 10rem;
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    img.sobre_img2 {
+        display: none;
+    }
+    .img2_txt {
+        right: 30rem;
+        width: 750px;
+        padding-top: 15rem;
+        font-size: 0.8rem;
+    }
+    #evidencias {
+        margin-top: 42rem;
+        grid-template-columns: repeat(3, 20%);
+        gap: 2rem;
+        background: none;
+    }
+    #evidencias span {
+        font-size: 0.8rem;
+        font-weight: 800;
+    }
+    #conheçaNossaHistoria {
+        display: inline-block;
+        margin-top: -20rem;
+    }
+    #conheçaNossaHistoria h1 {
+        font-size: 20px;
+        text-align: center;
+        width: 500px;
+        padding-right: 13;
+        margin: 0rem 0 0 15rem;
+
+    }
+    .linha-vertical h6 {
+        width: 600px;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 0.8rem;
+    }
+    #conheçaNossaHistoria p{
+        padding: 0;
+        width: 600px;
+        margin: 0 auto;
+        font-size: 0.8rem;
+    }
+    
+}
+@media screen and (min-width: 500px) and (max-width: 700px) {
+    #conheçaNossaHistoria {
+display: none;
+    }
+    #conheçaNossaHistoria h1 {
+display: none;
+
+    }
+    .linha-vertical h6 {
+display: none;
+    }
+    #conheçaNossaHistoria p{
+display: none;
+    }
+    #evidencias {
+        height: 18%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 797px) {
+    .img2_txt {
+        right: 22rem;
+        width: 399px;
+        padding-top: -8rem;
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+    .img2_txt {
+        right: 22rem;
+        width: 399px;
+        padding-top: -8rem;
+        font-size: 0.7rem;
+    }
+    #finalDestaque {
+        top: 243%;
+    }
+    img.sobre_img2{
+        display: none;
+    }
+    #evidencias {
+        margin-top: 35rem;
+        grid-template-columns: repeat(3, 20%);
+        gap: 2rem;
+        background: none;
+    }
+    #evidencias span {
+        font-size: 0.6rem;
+        font-weight: 800;
+    }
+
+    .img2_txt {
+        right: 22rem;
+        width: 399px;
+        padding-top: -8rem;
+        font-size: 0.7rem;
+    }
+
 }
