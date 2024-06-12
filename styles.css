@@ -39,6 +39,10 @@ p {
     margin: 15px 0 20px 0;
 }
 
+#hero p {
+    color: wheat;
+}
+
 .section-p1 {
     padding: 40px 80px;
 }
@@ -47,12 +51,25 @@ p {
     margin: 40px 0;
 }
 
+#hero{
+    background-image: url(img/homeEcoDecor.png);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 #header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: linear-gradient(145deg, #203F46, #335960, #426E74, #66A0A5);
+    background: #203F46;
     z-index: 999;
     position: sticky;
     top: 0;
@@ -90,28 +107,12 @@ p {
     height: auto;
 }
 
-
-#hero{
-    background-image: url(img/homeEcoDecor.png);
-    height: 90vh;
-    width: 100%;
-    background-size: cover;
-    background-position: top 25% right 0;
-    padding: 0 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-
-
 #search-form input[type="text"] {
-    border-radius: 6px; 
+    border-radius: 20px; 
     outline: none;
     width: 200px;
     border: 1px solid #ccc;
-    padding: 4px 4px 4px 4px;
+    padding: 10px;
 }
 
 .dropdown:hover .submenu {
@@ -140,11 +141,38 @@ p {
     color: #088178;
 }
 
+.dropdown:hover .submenu {
+    display: block;
+    background-color: #203F46; 
+    border-radius: 5px; 
+    padding: 10px;
+    z-index: 1000; 
+}
+
+#navbar li form {
+    order: 999; 
+    width: 100%;
+    text-align: center;
+}
+
+#menu-icon-hamburguer {
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.icons a {
+    margin-right: 10px;
+    color: white;
+}
+
+
 #feature {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(209px, 1fr)); 
     gap: 20px; 
-    width: 102%;
+    width: 100%;
     max-width: 1580px; 
     margin: 0 auto;
 }
@@ -163,7 +191,7 @@ p {
     height: 100px;
 }
 
-.categorias  {
+.categorias {
     text-decoration: none;
 }
 
@@ -311,14 +339,17 @@ footer {
     justify-content: space-between;
     background: #065f59;
     padding: 20px 40px;
-    color: #fff;  
+    color: #fff;
+    margin-top: 20px; 
+
 }
 
 footer .col {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    width: 23%;
 }
 
 footer .logo {
@@ -326,52 +357,106 @@ footer .logo {
 }
 
 footer h4 {
-    font-size: 18px; 
+    font-size: 18px;
     padding-bottom: 10px;
     color: #fff;
 }
 
 footer p {
-    font-size: 16px; 
-    color: #fff;  
+    font-size: 16px;
+    color: #fff;
 }
 
 footer a {
     font-size: 16px;
     text-decoration: none;
-    color: #fff;  
-    margin-bottom: 5px; 
+    color: #fff;
+    margin-bottom: 5px;
 }
 
-footer .follow .icon i {
-    font-size: 20px; 
-    margin-right: 10px;
-    color: #fff;  
+footer .follow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+footer .follow .iconn {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px; 
+}
+
+footer .follow .iconn i {
+    font-size: 20px;
+    color: #fff;
+}
+
+footer .install .row {
+    display: flex;
+    gap: 10px;
 }
 
 footer .install .row img {
-    width: 100px; 
-    margin-right: 10px;
+    width: 100px;
 }
 
 footer .install p {
-    font-size: 16px;  
-    color: #fff;  
+    font-size: 16px;
+    color: #fff;
 }
 
 footer p {
-    font-size: 16px;  
-    color: #fff; 
+    font-size: 16px;
+    color: #fff;
 }
 
 .copyright {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #054a45;  
+    background: #054a45;
     padding: 10px 0;
-    color: #fff;  
+    color: #fff;
+    width: 100%;
 }
+
+@media (max-width: 1024px) {
+    footer .col {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .col {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer .follow {
+        align-items: center;
+    }
+
+    footer .install .row img {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 20px 20px;
+    }
+
+    footer h4, footer p, footer a {
+        font-size: 14px;
+    }
+}
+
 
 img{
     width: 100%;
@@ -413,80 +498,83 @@ img{
     color: #000;
 }
 
-#menu-icon {
-    color: white; 
-    font-size: 24px; 
-}
 
 @media (max-width: 768px) {
-    #menu-icon {
-        display: block; 
-    }
-
     #navbar {
-        display: none; 
+        display: none;
         flex-direction: column;
+        position: absolute;
+        top: 60px; 
+        right: 0;
+        background-color: #203F46;
         width: 100%;
+        padding: 20px;
     }
-
-    #navbar li {
-        width: 100%;
-        text-align: center;
-        margin: 5px 0;
-    }
-
     #navbar.show {
-        display: flex; 
+        display: flex;
     }
-}
-
-.dropdown:hover .submenu {
-    display: block;
-    position: absolute; 
-    background-color: #203F46; 
-    border-radius: 5px; 
-    padding: 10px;
-    z-index: 1000; 
-}
-
-.submenu li {
-    margin-bottom: 5px;
-}
-
-.submenu li a {
-    color: white;
-}
-
-.submenu li a:hover {
-    color: #088178;
-}
-
-#navbar li form {
-    order: 999; 
-    width: 100%;
-    text-align: center;
-}
-
-
-
-@media (max-width: 768px) {
-    .fe-box {
-        flex: 1 1 calc(50% - 20px); 
+    #navbar li {
+        padding: 10px 0;
+    }
+    #menu-icon-hamburguer {
+        display: block;
+    }
+    #search-form {
+        order: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    #search-form input[type="text"] {
+        width: 90%;
+    }
+    .icons {
+        order: 2;
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 }
 
 @media (max-width: 480px) {
-    .fe-box {
-        flex: 1 1 calc(100% - 20px); 
+    #feature {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
+#hero h2,
+#hero h1,
+#hero p,
+#hero button {
+    margin: 0;
+}
+@media (max-width: 600px) {
+    #hero {
+        padding: 0 10px; 
+    }
 
+    #hero h2 {
+        font-size: 32px; 
+    }
 
+    #hero h1 {
+        font-size: 32px; 
+    }
 
+    #hero p {
+        font-size: 19px; 
+    }
 
+}
 
-
+@media (max-width: 600px) {
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 13px;
+        padding: 0 10px;
+    }
+}
 
 
 
