@@ -101,8 +101,7 @@ form #complementoCep {
     padding: 4px;
 }
 
-.txtPopulares,
-h3 {
+.txtPopulares {
     font-size: 1.5rem;
     padding-left: 2.5rem;
 }

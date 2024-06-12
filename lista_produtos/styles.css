@@ -27,9 +27,10 @@
     justify-content: center;
     overflow: hidden;  
 }
-#hero4 {
+
+#hero55 {
     position: relative;
-    background-image: url(../img/capasala.jpg);
+    background-image: url(../img/capaescritorio.12.jpg);
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -42,6 +43,54 @@
     overflow: hidden;  
 }
 
+#hero6 {
+    position: relative;
+    background-image: url(../img/capajaridm.jpeg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;  
+}
+#hero7 {
+    position: relative;
+    background-image: url(../img/capaquarto.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;  
+}
+#hero55::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 41, 38, 0.5);
+    z-index: 1;
+}
+#hero7::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 41, 38, 0.5);
+    z-index: 1;
+}
 #hero2::before {
     content: "";
     position: absolute;
@@ -62,7 +111,17 @@
     background-color: rgba(8, 41, 38, 0.5);
     z-index: 1;
 }
-#hero4::before {
+#hero3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 41, 38, 0.5);
+    z-index: 1;
+}
+#hero6::before {
     content: "";
     position: absolute;
     top: 0;
@@ -73,14 +132,39 @@
     z-index: 1;
 }
 
-#hero2, #hero3 h2,
-#hero2, #hero3 h1,
-#hero2, #hero3 p {
+
+#hero2, #hero3, h2,
+#hero2, #hero3, h1,
+#hero2, #hero3,  p {
     position: relative;
     z-index: 2;
 }
 
-#hero2, #hero3 p {
+ #hero7 p {
+    color: wheat;
+    font-size: 1.2rem;
+}
+#hero55, #hero6, #hero7 h2,
+#hero55, #hero6, #hero7 h1,
+#hero55, #hero6, #hero7 {
+    position: relative;
+    z-index: 2;
+}
+
+#hero55 p {
+    color: wheat;
+    font-size: 1.2rem; 
+}
+
+  #hero3 p {
+    color: wheat;
+    font-size: 1.2rem;
+}
+#hero6 p {
+    color: wheat;
+    font-size: 1.2rem;
+}
+#hero2 p {
     color: wheat;
     font-size: 1.2rem;
 }
@@ -305,6 +389,48 @@
     background-color: rgba(8, 41, 38, 0.5);
     background-blend-mode: overlay; 
 }
+#banner5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../img/capaescritorio.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(8, 41, 38, 0.5);
+    background-blend-mode: overlay; 
+}
+#banner6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../img/bannerjardim.png);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(8, 41, 38, 0.5);
+    background-blend-mode: overlay; 
+}
+#banner7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../img/capabannerquarto.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(8, 41, 38, 0.5);
+    background-blend-mode: overlay; 
+}
 
 .paragrafo-cozinha {
     color: wheat;
@@ -319,16 +445,16 @@
 }
 
 @media (max-width: 480px) {
-    #banner2, #banner3, #banner4 {
+    #banner2, #banner3, #banner4, #banner5 {
         height: auto;
         padding: 15px 5px;
     }
 
-    #banner2, #banner3, #banner4 h2 {
+    #banner2, #banner3, #banner4, #banner5 h2 {
         font-size: 1.2rem;
     }
 
-    #banner2, #banner3, #banner4 .paragrafo-cozinha {
+    #banner2, #banner3, #banner4, #banner5 .paragrafo-cozinha {
         font-size: 0.8rem;
     }
 }
