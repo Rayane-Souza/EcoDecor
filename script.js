@@ -1,3 +1,13 @@
+const userIcon = document.getElementById('user-icon');
+
+function abrirModal(){
+  const modal = document.getElementById('myModal');
+  modal.classList.add('show')
+  
+}
+userIcon.addEventListener('click', abrirModal)
+
+
 function mostrarSenha() {
   var inputPass = document.getElementById("senha");
   var btnMostrarPass = document.getElementById("btn-senha");
