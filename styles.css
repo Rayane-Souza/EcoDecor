@@ -339,14 +339,17 @@ footer {
     justify-content: space-between;
     background: #065f59;
     padding: 20px 40px;
-    color: #fff;  
+    color: #fff;
+    margin-top: 20px; 
+
 }
 
 footer .col {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    width: 23%;
 }
 
 footer .logo {
@@ -354,52 +357,106 @@ footer .logo {
 }
 
 footer h4 {
-    font-size: 18px; 
+    font-size: 18px;
     padding-bottom: 10px;
     color: #fff;
 }
 
 footer p {
-    font-size: 16px; 
-    color: #fff;  
+    font-size: 16px;
+    color: #fff;
 }
 
 footer a {
     font-size: 16px;
     text-decoration: none;
-    color: #fff;  
-    margin-bottom: 5px; 
+    color: #fff;
+    margin-bottom: 5px;
 }
 
-footer .follow .icon i {
-    font-size: 20px; 
-    margin-right: 10px;
-    color: #fff;  
+footer .follow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+footer .follow .iconn {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px; 
+}
+
+footer .follow .iconn i {
+    font-size: 20px;
+    color: #fff;
+}
+
+footer .install .row {
+    display: flex;
+    gap: 10px;
 }
 
 footer .install .row img {
-    width: 100px; 
-    margin-right: 10px;
+    width: 100px;
 }
 
 footer .install p {
-    font-size: 16px;  
-    color: #fff;  
+    font-size: 16px;
+    color: #fff;
 }
 
 footer p {
-    font-size: 16px;  
-    color: #fff; 
+    font-size: 16px;
+    color: #fff;
 }
 
 .copyright {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #054a45;  
+    background: #054a45;
     padding: 10px 0;
-    color: #fff;  
+    color: #fff;
+    width: 100%;
 }
+
+@media (max-width: 1024px) {
+    footer .col {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .col {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer .follow {
+        align-items: center;
+    }
+
+    footer .install .row img {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 20px 20px;
+    }
+
+    footer h4, footer p, footer a {
+        font-size: 14px;
+    }
+}
+
 
 img{
     width: 100%;
