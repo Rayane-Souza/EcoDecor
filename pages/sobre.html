@@ -15,6 +15,7 @@
 <body id="bodySobre">
     <section id="header">
         <a href="#"><img src="../img/logoEcoDecor.png" class="logo" alt="EcoDecor Logo" /></a>
+        <div id="menu-icon-hamburguer" class="fas fa-bars"></div>
         <div>
             <ul id="navbar">
                 <li><a href="../index.html">Home</a></li>
@@ -41,11 +42,10 @@
             </ul>
         </div>
     </section>
-    <nav class="localiza">
-        <li class="navega"><a class="aLi" href="../index.html">Home >></a></li>
-        <li class="navega"><a class="aLi" href="">Sobre >></a></li>
-        <li class="local">Conheça nossos produtos </li>
-    </nav>
+    <div class="breadcrumb">
+        <a href="../../index.html">Home</a> 
+        <a href="../pages/sobre.html">Sobre</a>
+      </div>
     <section id="destaque">
         <article>
             <h5>TODOS OS PRODUTOS </h5>
@@ -163,6 +163,16 @@
     <div class="copyright">
         <p>&copy; 2024 EcoDecor. Todos os direitos reservados.</p>
     </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const menuIcon = document.getElementById("menu-icon-hamburguer");
+            const navbar = document.getElementById("navbar");
+    
+            menuIcon.addEventListener("click", function() {
+                navbar.classList.toggle("show");
+            });
+        });
+    </script>
     <script src="script.js"></script>
 </body>
 
