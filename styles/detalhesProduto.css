@@ -175,45 +175,46 @@ form #pesquisarCep {
     align-items: center;
 }
 
-.star-icon {
+.mstar-icon {
     list-style: none;
     cursor: pointer;
     color: #ffe500;
 }
 
-.star-icon0 {
+.mstar-icon0 {
     list-style: none;
     cursor: pointer;
     color: #ffe500;
     margin-top: -0.5rem;
 }
 
-.star-icon0::before {
+.mstar-icon0::before {
     content: "\2605";
     font-size: 2rem;
 }
 
-.star-icon::before {
+.mstar-icon::before {
     content: "\2605";
     font-size: 2rem;
 }
 
-.star-icon.ativo~.star-icon::before {
+.mstar-icon.ativo~.mstar-icon::before {
     content: "\2606";
 }
 
-.product-rating:hover .star-icon::before {
+.product-rating:hover .mstar-icon::before {
     content: "\2605";
 }
 
-.star-icon:hover~.star-icon::before {
+.mstar-icon:hover~.mstar-icon::before {
     content: "\2606";
 }
 
 .btn-groups {
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-columns: 0.5fr;
     margin-top: 3rem;
+    justify-content: center;
 }
 
 #hero button {
@@ -255,7 +256,9 @@ form #pesquisarCep {
     width: 1500px;
 
 }
-
+.dttxt{
+    color: #065f59;
+}
 .detalhesgrid img {
     margin: 0 auto;
     margin-top: 5rem;
@@ -580,7 +583,7 @@ form #pesquisarCep {
         width: 820px;
         padding-left: 3rem;
     }
-    .star-icon0::before {
+    .mstar-icon0::before {
         content: "\2605";
         font-size: 1.9rem;
     }
@@ -708,7 +711,7 @@ form #pesquisarCep {
         font-size: 0.6rem;
     }
 
-    .star-icon0::before {
+    .mstar-icon0::before {
         content: "\2605";
         font-size: 1.8rem;
     }
@@ -806,7 +809,7 @@ form #pesquisarCep {
         margin: -1.2rem 0 0 5rem;
 
     }
-    .star-icon0::before {
+    .mstar-icon0::before {
         content: "\2605";
         font-size: 1.5rem;
     }
