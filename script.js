@@ -1,11 +1,22 @@
-const userIcon = document.getElementById('user-icon');
-
-function abrirModal(){
+function abrirModal() {
   const modal = document.getElementById('myModal');
-  modal.classList.add('show')
-  
+  if (myModal) {
+    modal.classList.add('show');
+  } else {
+    console.error('Elemento #myModal não encontrado.');
+  }
 }
-userIcon.addEventListener('click', abrirModal)
+
+
+
+// const userIcon = document.getElementById('user-icon');
+
+// function abrirModal(){
+//   const modal = document.getElementById('myModal');
+//   modal.classList.add('show')
+  
+// }
+// userIcon.addEventListener('click', abrirModal)
 
 
 function mostrarSenha() {
