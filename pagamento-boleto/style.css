@@ -1,0 +1,225 @@
+.container-boleto {
+  margin: 4%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.iproduto-detalhes img {
+  width: 100%;
+}
+
+.i-detalhes {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 15% 50%;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
+.i-detalhes p {
+  padding-left: 7%;
+  display: block;
+  align-content: center;
+}
+
+.iproduto-detalhes h2 {
+  margin: 0;
+  color: black;
+  font-size: x-large;
+}
+
+.iproduto-detalhes p {
+  margin: 0;
+  color: black;
+  font-size: large;
+}
+
+.iproduto-detalhes h3 {
+  margin: 0;
+  color: black;
+}
+
+.endereco-boleto h3 {
+  display: flex;
+  margin: 0;
+  color: black;
+  margin-top: 10%;
+  font-size: larger;
+}
+
+.endereco-boleto p {
+  margin: 0;
+  color: black;
+  font-size: large;
+}
+
+.cbarras-boleto fieldset {
+  border: none;
+}
+
+.cbarras-boleto fieldset button {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.codigodebarras-boleto h2 {
+  margin: 0;
+  color: black;
+  font-size: x-large;
+}
+
+.codigodebarras-boleto h3 {
+  margin: 0;
+  color: black;
+  font-size: larger;
+}
+
+.codigodebarras-boleto p {
+  color: black;
+  margin-top: 3%;
+  font-size: large;
+}
+
+.codigodebarras-boleto img {
+  display: flex;
+  height: 50px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 6%;
+}
+
+#cbarras2-boleto {
+  display: flex;
+  justify-content: center;
+  margin-top: -0.2%;
+}
+a {
+  margin: 0;
+  padding: 0;
+}
+button {
+  border-radius: 5px;
+  width: 150px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  background-color: #203f46;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #088178;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  transform: scale(1.2);
+}
+
+.botao-boleto {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7%;
+}
+
+#botao3-boleto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150%;
+}
+
+@media (max-width: 1024px) {
+  .iproduto-detalhes h2 {
+    line-height: 15px;
+    font-size: 90%;
+  }
+  .iproduto-detalhes p {
+    font-size: 90%;
+  }
+  .endereco-boleto h3 {
+    font-size: 90%;
+  }
+  .endereco-boleto p {
+    font-size: 90%;
+  }
+  .codigodebarras-boleto h2 {
+    font-size: 90%;
+  }
+  .codigodebarras-boleto h3 {
+    font-size: 90%;
+  }
+  .cbarras-boleto p {
+    font-size: 90%;
+  }
+  button {
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;
+    line-height: 25px;
+    border-radius: 5px;
+    font-size: 9px;
+    color: rgb(255, 255, 255);
+    background-color: #203f46;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  }
+  button:hover {
+    background-color: #088178;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transform: scale(1.2);
+  }
+  #botao3-boleto{
+    width: 100px;
+  }
+}
+@media (max-width: 650px) {
+  .container-boleto {
+    gap: 5%;
+  }
+  .iproduto-detalhes h2 {
+    line-height: 15px;
+    font-size: 80%;
+  }
+  .iproduto-detalhes p {
+    font-size: 60%;
+  }
+  .endereco-boleto h3 {
+    font-size: 70%;
+  }
+  .endereco-boleto p {
+    font-size: 60%;
+  }
+  .codigodebarras-boleto h2 {
+    line-height: 15px;
+    font-size: 80%;
+  }
+  .codigodebarras-boleto h3 {
+    font-size: 70%;
+    margin-top: 2%;
+  }
+  .cbarras-boleto p {
+    font-size: 60%;
+  }
+  button {
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;
+    line-height: 25px;
+    border-radius: 5px;
+    font-size: 9px;
+    color: rgb(255, 255, 255);
+    background-color: #203f46;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  }
+  button:hover {
+    background-color: #088178;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transform: scale(1.2);
+  }
+  #botao3-boleto{
+    width: 80px;
+  }
+}

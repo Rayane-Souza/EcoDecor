@@ -44,3 +44,5 @@ const pesquisarCep = async() => {
 }
 document.getElementById('cepInutTxt')
     .addEventListener('focusout', pesquisarCep);
+
+
