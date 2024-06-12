@@ -1,14 +1,50 @@
 
+#hero2 {
+    position: relative;
+    background-image: url(../img/cozinha.fundo.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
 
-.category-title, .breadcrumb {
-    margin-left: 50px;
+#hero2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 41, 38, 0.5);
+    z-index: 1;
+}
+
+#hero2 h2,
+#hero2 h1,
+#hero2 p {
+    position: relative;
+    z-index: 2;
+}
+
+#hero2 p {
+    color: wheat;
+    font-size: 1.2rem;
 }
 
 .cards-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 13px;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 9px;
     margin-top: 20px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .cards-container {
@@ -17,14 +53,16 @@
 }
 
 .box {
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
+    height: 350px;
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    position: relative;
+    margin: 0 auto;
 }
 
 .box:hover {
@@ -45,11 +83,13 @@
 .image {
     position: relative;
     overflow: hidden;
+    height: 200px;
 }
 
 .image img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     transition: transform 0.3s ease;
 }
 
@@ -64,24 +104,19 @@
     align-items: center;
 }
 
-.top-right {
+.topp-right {
     top: 10px;
     right: 10px;
 }
-
-.icons a {
-    color: #19817a;
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s ease;
-}
-
+  
 .icons a:hover {
     color: #065f59;
 }
 
 .content {
     padding: 15px;
+    height: 150px;
+    overflow: hidden;
 }
 
 .content h3 {
@@ -125,19 +160,32 @@
     font-size: 24px;
     font-weight: bold;
     color: #203F46;
+    margin-left: 30px;
 }
 
 .lista_produtos {
-    margin-left: 50px;
+    align-items: center;
+}
+
+.breadcrumb {
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 30px;
 }
 
 .breadcrumb a {
-    color: #19817a;
+    color: #088178;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 .breadcrumb a:hover {
-    color: #065f59;
+    color: #065a4c;
+}
+
+.breadcrumb a:not(:last-child):after {
+    content: " > ";
+    margin: 0 5px;
 }
 
 #banner_produtos {
@@ -153,6 +201,10 @@
     max-width: 800px;
     margin: 0 auto;
     color: white;
+}
+.icons a.fa-heart {
+    color: #19817a; 
+    position: relative;
 }
 
 .icon {
@@ -170,9 +222,53 @@
     font-size: 14px;
 }
 
+.icons a.fa-heart {
+    color: #19817a; 
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#banner2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../img/fundocapacozinha.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(8, 41, 38, 0.5);
+    background-blend-mode: overlay; 
+}
+
+.paragrafo-cozinha {
+    color: wheat;
+}
+
 @media (max-width: 600px) {
     .cards-grid {
-        grid-template-columns: repeat(2, 1fr); 
-        gap: 13px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 9px;
+        padding: 0 5px;
     }
 }
+
+@media (max-width: 480px) {
+    #banner2 {
+        height: auto;
+        padding: 15px 5px;
+    }
+
+    #banner2 h2 {
+        font-size: 1.2rem;
+    }
+
+    #banner2 .paragrafo-cozinha {
+        font-size: 0.8rem;
+    }
+}
+
+
