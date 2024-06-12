@@ -474,73 +474,25 @@ img{
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (min-width: 968px) and (max-width: 1620px) {
+    .btn-groups button{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 868px) and (max-width: 1720px) {
+    .btn-groups button{
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 668px) and (max-width: 1520px) {
+    .btn-groups button{
+        font-size: 8px;
+    }
+}
+@media screen and (min-width: 468px) and (max-width: 1520px) {
+    .btn-groups button{
+        display: inline-block;
+    }
+}
 
 

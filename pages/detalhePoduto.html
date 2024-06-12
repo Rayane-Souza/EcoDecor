@@ -41,10 +41,10 @@
     </div>
   </section>
   <nav class="localiza">
-    <li class="navega"><a href="../index.html">Home >></a></li>
-    <li class="navega"><a href="#">Categorias >></a></li>
-    <li class="navega"><a href="#">Jardim >></a></li>
-    <li class="navega"><a href="#">Detalhes do produto >></a></li>
+    <li class="navega"><a class="aLi" href="../index.html">Home >></a></li>
+    <li class="navega"><a class="aLi" href="#">Categorias >></a></li>
+    <li class="navega"><a class="aLi" href="#">Jardim >></a></li>
+    <li class="navega"><a class="aLi" href="#">Detalhes do produto >></a></li>
     <li class="local">Jardim Suspenso</li>
   </nav>
   <section>
@@ -61,14 +61,14 @@
       </div>
       <div class="product-div-right">
         <span class="product-name">Jardim Suspenso para Varanda</span>
-        <span>(350 avaliações)</span>
+        <span class="avSpan">(350 avaliações)</span>
         <figure id="posicapD">
-          <ul class="product-rating">
-            <li class="star-icon ativo" data-avaliacao="1"></li>
-            <li class="star-icon" data-avaliacao="2"></li>
-            <li class="star-icon" data-avaliacao="3"></li>
-            <li class="star-icon" data-avaliacao="4"></li>
-            <li class="star-icon" data-avaliacao="5"></li>
+          <ul class="product-rating1">
+            <li class="star-icon0" data-avaliacao="1"></li>
+            <li class="star-icon0" data-avaliacao="2"></li>
+            <li class="star-icon0" data-avaliacao="3"></li>
+            <li class="star-icon0" data-avaliacao="4"></li>
+            <li class="star-icon0" data-avaliacao="5"></li>
 
           </ul>
         </figure>
@@ -88,7 +88,7 @@
           <figure class="cep0">
             <div>
               <img class="transitCar" src="https://img.icons8.com/wired/64/in-transit.png" alt="in-transit" />
-              <aside>
+              <aside class="txtfrete">
                 <p>Calcule o </p>
                 <span>Frete</span>
               </aside>
@@ -125,67 +125,120 @@
       </div>
   </section>
   <section id="product1" class="section-p1">
-    <h3>Populares</h3>
-    <div class="pro-container">
-      <div class="pro">
-        <img src="img/salacategoria.jpg" alt="" class="product-image" />
-        <div class="des">
-          <span>EcoDecor</span>
-          <h5>Teste Teste Teste</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>R$150,00</h4>
-        </div>
-        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    <div class="containerPopulares">
+    <h3 class="txtPopulares">Populares</h3>
+    <div class="lista_produtos cards-grid" >
+      <div class="cards-container">
+          <div class="box">
+              <span class="discount">-10%</span>
+              <div class="image">
+                  <img src="../img/vaso para plantas 1.png" alt="Vaso para Plantas">
+                  <div class="icons top-right">
+                      <a href="#" class="far fa-heart"></a>
+                  </div>
+              </div>
+              <div class="content">
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h3>Vaso para Plantas <a href="#" class="fas fa-cart-plus"></a></h3>
+                  <div class="price">R$120,00 <span>R$220.00</span></div>
+              </div>
+          </div> 
       </div>
-      <div class="pro">
-        <img src="img/salacategoria.jpg" alt="" class="product-image" />
-        <div class="des">
-          <span>EcoDecor</span>
-          <h5>Teste Teste Teste</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>R$150,00</h4>
-        </div>
-        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+  
+      <div class="cards-container">
+          <div class="box">
+              <span class="discount">-10%</span>
+              <div class="image">
+                  <img src="../img/vaso para plantas 1.png" alt="Vaso para Plantas">
+                  <div class="icons top-right">
+                      <a href="#" class="far fa-heart"></a>
+                  </div>
+              </div>
+              <div class="content">
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h3>Vaso para Plantas <a href="#" class="fas fa-cart-plus"></a></h3>
+                  <div class="price">R$120,00 <span>R$220.00</span></div>
+              </div>
+          </div> 
       </div>
-      <div class="pro">
-        <img src="img/salacategoria.jpg" alt="" class="product-image" />
-        <div class="des">
-          <span>EcoDecor</span>
-          <h5>Teste Teste Teste</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>R$150,00</h4>
-        </div>
-        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+  
+      <div class="cards-container">
+          <div class="box">
+              <span class="discount">-10%</span>
+              <div class="image">
+                  <img src="../img/vaso para plantas 1.png" alt="Vaso para Plantas">
+                  <div class="icons top-right">
+                      <a href="#" class="far fa-heart"></a>
+                  </div>
+              </div>
+              <div class="content">
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h3>Vaso para Plantas <a href="#" class="fas fa-cart-plus"></a></h3>
+                  <div class="price">R$120,00 <span>R$220.00</span></div>
+              </div>
+          </div> 
       </div>
-      <div class="pro">
-        <img src="img/salacategoria.jpg" alt="" class="product-image" />
-        <div class="des">
-          <span>EcoDecor</span>
-          <h5>Teste Teste Teste</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>R$150,00</h4>
-        </div>
-        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      <div class="cards-container">
+          <div class="box">
+              <span class="discount">-10%</span>
+              <div class="image">
+                  <img src="../img/vaso para plantas 1.png" alt="Vaso para Plantas">
+                  <div class="icons top-right">
+                      <a href="#" class="far fa-heart"></a>
+                  </div>
+              </div>
+              <div class="content">
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h3>Vaso para Plantas <a href="#" class="fas fa-cart-plus"></a></h3>
+                  <div class="price">R$120,00 <span>R$220.00</span></div>
+              </div>
+          </div> 
+      </div>
+      <div class="cards-container">
+          <div class="box">
+              <span class="discount">-10%</span>
+              <div class="image">
+                  <img src="../img/vaso para plantas 1.png" alt="Vaso para Plantas">
+                  <div class="icons top-right">
+                      <a href="#" class="far fa-heart"></a>
+                  </div>
+              </div>
+              <div class="content">
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h3>Vaso para Plantas <a href="#" class="fas fa-cart-plus"></a></h3>
+                  <div class="price">R$120,00 <span>R$220.00</span></div>
+              </div>
+          </div> 
       </div>
     </div>
   </section>
