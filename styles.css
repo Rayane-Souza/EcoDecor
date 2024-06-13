@@ -198,6 +198,13 @@ p {
 
 .categorias {
     text-decoration: none;
+    margin-left: 150px; 
+}
+
+@media (max-width: 1024px) {
+    .categorias {
+        margin-left: 50px; 
+    }
 }
 
 @media (max-width: 768px) {
@@ -211,6 +218,10 @@ p {
         margin-left: 0;
     }
 
+    .categorias {
+        margin-left: 0; 
+    }
+
     .fe-box:nth-child(4),
     .fe-box:nth-child(5) {
         grid-column: span 1;
@@ -218,6 +229,13 @@ p {
         transform: translateX(70%); 
     }
 }
+
+@media (max-width: 480px) {
+    .categorias {
+        margin-left: 0; 
+    }
+}
+
 
 /* #product1 {
     text-align: center;

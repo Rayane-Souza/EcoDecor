@@ -27,34 +27,16 @@
   font-weight: bold;
 }
 
-.price4 {
-  display: flex;
-  justify-content: center;
-  color: black;
-  font-weight: bold;
-  margin-top: 4%;
-}
-
-.price1 {
-  display: flex;
-  justify-content: center;
-  color: black;
-  font-weight: bold;
-}
-
-.price2 {
-  display: flex;
-  justify-content: center;
-  color: black;
-  font-weight: bold;
-  margin-top: -2%;
-}
-
+.price4,
+.price1,
+.price2,
 .price3 {
   display: flex;
   justify-content: center;
   color: black;
   font-weight: bold;
+  margin-top: 2%;
+  font-size: 14px; 
 }
 
 .qrcode-pix {
@@ -77,6 +59,7 @@
 .qrcode-pix p {
   margin: 0;
   margin-left: 10%;
+  font-size: 14px; 
 }
 
 #px1 {
@@ -86,7 +69,8 @@
 #qrcode {
   margin: 0 auto;
   margin-top: 2%;
-  width: 30%;
+  width: 50%; 
+  max-width: 300px; 
 }
 
 .copycode-pix {
@@ -108,6 +92,7 @@
   color: black;
   font-weight: bold;
   justify-content: flex-start;
+  font-size: 14px; 
 }
 
 #px2 {
@@ -127,6 +112,7 @@
   padding: auto;
   align-items: center;
   font-weight: 200;
+  font-size: 14px; 
 }
 
 #px3 {
@@ -138,7 +124,7 @@
 .link-pix button {
   display: flex;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 14px; 
   color: rgb(255, 255, 255);
   background-color: #203f46;
   transition: background-color 0.6s ease, color 0.5s ease, transform 0.5s ease;
@@ -156,19 +142,21 @@
   display: flex;
   justify-content: center;
 }
+
 .back-pix0 a {
   margin: 0;
   padding: 0;
 }
+
 .back-pix {
-  margin-top: 25%;
+  margin-top: 20%; 
   display: flex;
   justify-content: center;
-  padding-left: 40px;
-  padding-right: 40px;
-  width: 15%;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 25%; 
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 14px; 
   color: rgb(255, 255, 255);
   background-color: #203f46;
   transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
@@ -178,64 +166,119 @@
   background-color: #088178;
   color: rgb(255, 255, 255);
   font-weight: bold;
-  transform: scale(1.2);
+  transform: scale(1.1); 
 }
+
 @media (max-width: 768px) {
   .container-pix {
-    width: 700px;
+    grid-template-columns: 1fr; 
+    width: 90%;
+    margin: 1% auto; 
     gap: 5%;
   }
-  .infoproduto-pix h3 {
-    font-size: 15px;
+
+  .iproduto-pix {
+    width: 80%;
   }
+
+  .infoproduto-pix h3 {
+    font-size: 14px; 
+    margin-top: 3%;
+  }
+
   .infoproduto-pix p {
     font-size: 12px;
   }
+
   .qrcode-pix h3 {
-    font-size: 15px;
+    font-size: 14px; 
   }
+
   .qrcode-pix p {
-    font-size: 12px;
+    font-size: 12px; 
   }
 
   .copycode-pix h3 {
-    font-size: 15px;
-    justify-content: start;
+    font-size: 14px; 
+    margin-top: 3%;
   }
+
   .copycode-pix p {
     font-size: 12px;
   }
+
+  @media (max-width: 425px) {
+    #qrcode {
+      width: 100%;
+      max-width: 200px;
+    }
+  
+    .copycode-pix {
+      margin-top: 2%;
+    }
+  
+    .copycode-pix h3 {
+      margin-top: 2%;
+    }
+  
+    .copycode-pix p {
+      font-size: 11px;
+      margin-top: 1%;
+    }
+  
+    .link-pix span {
+      margin-top: 1%;
+    }
+  
+    .qrcode-pix {
+      margin-top: -1%; 
+    }
+  
+    .back-pix {
+      margin-top: 10%;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    #qrcode {
+      width: 100%;
+      max-width: 180px;
+    }
+  
+    .copycode-pix {
+      margin-top: 1%;
+    }
+  
+    .copycode-pix h3 {
+      margin-top: 1%;
+    }
+  
+    .copycode-pix p {
+      font-size: 10px;
+      margin-top: 0.5%;
+    }
+  
+    .link-pix span {
+      margin-top: 0.5%;
+    }
+  
+    .qrcode-pix {
+      margin-top: -100%;
+    }
+  
+    .back-pix {
+      margin-top: 2%;
+    }
+  }
+  
+
   .link-pix span {
     max-width: 40ch;
-    overflow: hidden;
   }
-  .section-p1 {
-    margin-top: 9%;
+
+  .section-p11 {
+    margin-top: 40%;
   }
 }
 
-@media (max-width: 425px) {
-  #qrcode-pix {
-    width: 5px;
-  }
-  .link-pix span {
-    max-width: 37ch;
-    overflow: hidden;
-  }
-  #header {
-    width: 168%;
-  }
-  .section-p1 {
-    width: 168%;
-    margin-top: 12%;
-  }
-}
-@media (max-width: 320px) {
-  #header {
-    width: 222%;
-  }
-  .section-p1 {
-    width: 222%;
-    margin-top: 15%;
-  }
-}
+
