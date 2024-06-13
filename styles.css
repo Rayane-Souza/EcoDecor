@@ -663,7 +663,15 @@ img{
     }
 }
 
-
+.cards-container a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: inherit; /* Herda a cor do texto pai */
+  }
+  
+  .cards-container a .box {
+    display: block; /* Garante que todo o card seja clicável */
+  }
+  
 
 
 
