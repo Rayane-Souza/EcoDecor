@@ -576,7 +576,8 @@ form #pesquisarCep {
     }
     .txtDetalhes{
         margin-left: 0; 
-        font-size: 24px;
+        width: 400px;
+        font-size: 20px;
     }
     .detalhesgrid p{
         padding-top: 1rem;
