@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header-cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #203F46;
+    z-index: 999;
+    top: 0;
+}
+
+.header-cadastro img {
+    width: 150px;
+}
+
+.body-cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.titulo-cadastro {
+  justify-content: center;
+  display: flex;
+  align-items: flex-start;
+  font-size: 24px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.p-cadastro p {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+.form-cadastro {
+    width: 420px;
+    background: transparent;
+    border: 2px solid #088178;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 30px 40px;
+    overflow: hidden;
+}
+
+.cadastro-nome input, .cadastro-email input, .data-cadastro input, .senha-cadastro input, .senhaR-cadastro input{
+    position: relative;
+    width: 100%;
+    height: 37px;
+    margin-bottom: 15px;
+    border-radius: 2px solid;
+}
+
+.cadastro-genero select {
+    position: relative;
+    width: 100%;
+    height: 37px;
+    margin-bottom: 15px;
+    border-radius: 2px solid;
+}
+
+.cadastro-termos label{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.cadastro-termos label input{
+    margin-right: 3px;
+}
+
+.cadastro-termos label a{
+    text-decoration: none;
+}
+
+.obgt {
+    color: red;
+}
+
+.senhaR-cadastro i {
+    position: absolute;
+    right: 50px;
+    top: 66.5%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.botao-cadastrar a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background: #203F46;
+    padding: 10px 90px 10px 90px;
+    border-radius: 7px;
+}
+
+.cadastro-fazerlogin {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cadastro-fazerlogin p a {
+    text-decoration: none;
+}
+
+.footer-cadastro {
+    text-align: center;
+    padding: 20px 80px;
+    background: #203F46;
+    margin-top: 20px;
+}
+
+.footer-cadastro a{
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+}
