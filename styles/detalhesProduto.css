@@ -399,11 +399,11 @@ form #pesquisarCep {
 
 @media screen and (min-width: 1160px) and (max-width: 1513px) {
     .product-description {
-        width: 600px;
+        width: 500px;
     }
 
     #posicapD {
-        margin: -2.2rem 0 0 29rem;
+        margin: -2.2rem 0 0 20rem;
 
     }
     .detalhesgrid {
@@ -411,7 +411,7 @@ form #pesquisarCep {
         font-size: 1.5rem;
         margin: 0;
         display: inline-block;
-        width: 1200px;
+        width: 1100px;
     }
 
     .detalhesgrid p {
