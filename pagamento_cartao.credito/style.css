@@ -1,8 +1,7 @@
 .main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* margin-left: 10%; */
-  /* margin-left: 2%; */
+  grid-template-columns: 1fr 60%;
+  margin-bottom: 5%;
 }
 
 .iproduto img {
@@ -33,7 +32,7 @@
 
 .infoproduto fieldset {
   width: 80%;
-  height: 60%;
+  height: 40%;
   border: none;
 }
 .infoproduto span {
@@ -132,16 +131,6 @@ input {
   -ms-transition: none !important;
   -o-transition: none !important;
 }
-/* 
-.container-preload {
-  width: 100%;
-  max-width: 400px;
-  max-height: 251px;
-  height: 54vw;
-  padding: 20px;
-  display: flex;
-  justify-content: end;
-} */
 
 #ccsingle {
   position: absolute;
@@ -368,7 +357,6 @@ input {
   display: grid;
   grid-template-rows: 1fr 1fr;
   margin-top: 4%;
-  /* justify-content: center; */
 }
 
 .creditcard {
@@ -406,8 +394,7 @@ input {
 }
 
 .ends {
-  /* margin: 0 auto; */
-  margin-top: 10%;
+  margin-top: 15%;
   display: inline-flex;
   justify-content: space-evenly;
 }
@@ -458,8 +445,6 @@ input {
     width: 50px;
   }
   .ends {
-    /* margin: 0 auto; */
-    /* margin-top: 2%; */
   }
 }
 @media (max-width: 425px) {
@@ -484,9 +469,7 @@ input {
   }
   .form-container {
     display: grid;
-    /* grid-column-gap: 6px; */
-    grid-row-gap:5px ;
-    /* grid-template-columns: auto; */
+    grid-row-gap: 5px;
     grid-template-rows: 80px 80px 80px 80px;
     grid-template-areas: "name name" "number number" "expiration security" "cpf";
     max-width: 300px;
@@ -495,7 +478,7 @@ input {
     font-weight: bold;
     margin-left: 4%;
   }
-  #expirationdate{
+  #expirationdate {
     font-size: 1px;
   }
 }
