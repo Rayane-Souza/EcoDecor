@@ -399,18 +399,19 @@ form #pesquisarCep {
 
 @media screen and (min-width: 1160px) and (max-width: 1513px) {
     .product-description {
-        width: 600px;
+        width: 500px;
     }
 
     #posicapD {
-        margin: -2.2rem 0 0 29rem;
+        margin: -2.2rem 0 0 20rem;
 
     }
     .detalhesgrid {
         padding-top: 2rem;
         font-size: 1.5rem;
-        margin: 0 auto;
+        margin: 0;
         display: inline-block;
+        width: 1100px;
     }
 
     .detalhesgrid p {
@@ -486,7 +487,8 @@ form #pesquisarCep {
 
     .detalhesgrid {
         padding-top: 2rem;
-        font-size: 1.5rem;
+        width: 600px;
+        font-size: 1rem;
         margin: 0 auto;
         display: inline-block;
     }
@@ -574,7 +576,8 @@ form #pesquisarCep {
     }
     .txtDetalhes{
         margin-left: 0; 
-        font-size: 24px;
+        width: 400px;
+        font-size: 20px;
     }
     .detalhesgrid p{
         padding-top: 1rem;
@@ -733,11 +736,13 @@ form #pesquisarCep {
     .txtfrete p{
         display: none;
     }
-    form #endereco{
-        margin: 1rem 0 0 13.7rem;
+    form input#endereco{
+        width: 200px;
+        margin: 3.8rem 0 0 1.7rem;
     }
     form #complementoCep {
-        margin: 1.7rem 0 0 13.7rem;
+        width: 300px;
+        margin: 4.4rem 0 0 1.7rem;
 
     }
     .txtfrete span{
@@ -823,10 +828,10 @@ form #pesquisarCep {
         display: none;
     }
     form #endereco{
-        margin: 1.8rem 0 0 13.7rem;
+        margin: 1.8rem 0 0 10.7rem;
     }
     form #complementoCep {
-        margin: 2.8rem 0 0 13.7rem;
+        margin: 2.8rem 0 0 10.7rem;
 
     }
     .txtfrete span{
@@ -855,7 +860,7 @@ form #pesquisarCep {
         gap: 16rem;
     }
     form #cepInutTxt {
-        width: 10rem;
+        width: 5rem;
         height: 1rem;
         font-size: 0.6rem;
     }
