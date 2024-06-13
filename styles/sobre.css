@@ -184,278 +184,185 @@ a {
     font-size: 1rem;
 }
 
-@media screen and (min-width: 500px) and (max-width: 997px) {
-    .navega a {
-        font-size: 0.7rem;
-        margin: 0 0 0 -1rem;
-    }
-
-    .local {
-        padding-top: 0.3rem;
-        font-size: 0.7rem;
-        margin: 0 0 0 -1rem;
-    }
-}
-
-@media screen and (min-width: 500px) and (max-width: 1787px) {
-
-    #destaque h4,
-    #destaque h5 {
-        margin: 1rem 0rem 0 -40rem;
-    }
-}
-
-@media screen and (min-width: 500px) and (max-width: 1487px) {
-
-    #destaque h4,
-    #destaque h5 {
-        margin: 0rem 0rem 0 0rem;
-        text-align: center;
-    }
-
-    #destaque h4 {
-        width: 900px;
-    }
-
-}
-
-@media screen and (min-width: 500px) and (max-width: 767px) {
-    #destaque h4 {
-        font-size: 2rem;
-        width: 390px;
-    }
-}
-
-@media screen and (min-width: 1250px) and (max-width: 1655px) {
+@media screen and (max-width: 1660px) {
     #box_SerNatureza {
         width: 80rem;
-        height: 34rem;
+        height: 32rem;
     }
-    .sobre_img1 {
-        top: 8rem;
-        width: 28rem;
-        height: 28rem;
-    }
-    #natureza {
+
+    #destaque h4 {
         margin: 1rem 0rem 0 -35rem;
     }
-}
-@media screen and (min-width: 927px) and (max-width: 1250px) {
-    #box_SerNatureza {
-        width: 65rem;
-        height: 34rem;
+
+    #destaque h5 {
+        margin: 1rem 0rem 0 -35rem;
     }
-    #natureza h6.txt1 {
-        font-size: 0.7rem;
-    }
-    #natureza h3.txt0 {
-        margin-left: -2.5rem;
-        font-size: 1.3rem;
-    }
+
     .sobre_img1 {
-        top: 8rem;
+        top: 18%;
         width: 28rem;
         height: 28rem;
     }
+
     #natureza p {
-        font-size: 0.8rem;
-        width: 330px;
-    }
-    #natureza {
-        margin: 1rem 0rem 0 -23rem;
-    }
-}
-@media screen and (min-width: 757px) and (max-width: 927px) {
-    #box_SerNatureza {
-        width: 65rem;
-        height: 34rem;
-    }
-    div img.sobre_img1 {
-        top: 8rem;
-        left: 33rem;
-        width: 18rem;
-        height: 18rem;
-    }
-    #natureza p {
-        font-size: 0.8rem;
-        width: 330px;
-    }
-    #natureza {
-        margin: 1rem 0rem 0 -13rem;
-    }
-}
-@media screen and (min-width: 600px) and (max-width: 757px) {
-    #box_SerNatureza {
-        width: 45rem;
-        height: 24rem;
-    }
-    div img.sobre_img1 {
-        top: 8rem;
-        left: 22rem;
-        width: 18rem;
-        height: 18rem;
-    }
-    #natureza p {
-        font-size: 0.7rem;
-        width: 250px;
-    }
-    #natureza {
-        margin: 1rem 0rem 0 -4rem;
-    }
-    
-}
-@media screen and (min-width: 500px) and (max-width: 600px) {
-    #box_SerNatureza {
-        width: 35rem;
-        height: 24rem;
-    }
-    div img.sobre_img1 {
-        top: 5rem;
-        left: 3.5rem;
-        width: 14rem;
-        height: 14rem;
-    }
-    #natureza h6.txt1 {
-        font-size: 0.7rem;
-    }
-    #natureza h3.txt0 {
-        margin-left: -2.5rem;
-        font-size: 1.3rem;
-    }
-    #natureza p {
-        font-size: 0.7rem;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 2;
         width: 380px;
-        padding-left: 15rem;
-        color: white;
     }
+
     #natureza {
-        margin: 0rem 0rem 0 9rem;
+        margin: 1rem 0rem 0 -30rem;
+        width: 500px;
     }
-}
-@media screen and (min-width: 1300px) and (max-width: 1630px) {
-    img.sobre_img2 {
-        width: 80%;
-        margin: 0 auto;
-    }
-}
-@media screen and (min-width: 900px) and (max-width: 1300px) {
-    img.sobre_img2 {
-        width: 58%;
-        margin: 0 auto;
-    }
-    #bodySobre{
+
+    #bodySobre {
         background: white;
     }
-    .img2_txt {
-        right: 5rem;
-        width: 350px;
-        padding-top: 10rem;
-        font-size: 1rem;
-    }
-}
-@media screen and (min-width: 700px) and (max-width: 900px) {
-    img.sobre_img2 {
-        display: none;
-    }
-    .img2_txt {
-        right: 30rem;
-        width: 750px;
-        padding-top: 15rem;
-        font-size: 0.8rem;
-    }
+
     #evidencias {
-        margin-top: 42rem;
-        grid-template-columns: repeat(3, 20%);
-        gap: 2rem;
+        margin-top: 40rem;
+        height: 20rem;
+        grid-template-columns: repeat(3, 15%);
         background: none;
     }
+
+    #conheçaNossaHistoria {
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: 25% 25%;
+    }
+
+    #conheçaNossaHistoria h1 {
+        margin: 2rem 0 0 12rem;
+    }
+
+    .linha-vertical {
+        border-left: 2px;
+    }
+
     #evidencias span {
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-weight: 800;
     }
+
+    #finalDestaque {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1323px) {
+    #destaque h4 {
+        margin: 1rem 0rem 0 -12rem;
+        font-size: 2.5rem;
+        width: 400px;
+    }
+    #destaque h5 {
+        margin: 1rem 0rem 0 -12rem;
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 1300px) {
+
     #conheçaNossaHistoria {
         display: inline-block;
-        margin-top: -20rem;
     }
-    #conheçaNossaHistoria h1 {
-        font-size: 20px;
-        text-align: center;
-        width: 500px;
-        padding-right: 13;
-        margin: 0rem 0 0 15rem;
-
-    }
-    .linha-vertical h6 {
+    .linha-vertical h6, #conheçaNossaHistoria p {
         width: 600px;
-        margin: 0 auto;
-        padding: 0;
+        margin-top: 1.5rem;
+        padding-left: 4rem;
         font-size: 0.8rem;
     }
-    #conheçaNossaHistoria p{
-        padding: 0;
-        width: 600px;
-        margin: 0 auto;
-        font-size: 0.8rem;
+    #conheçaNossaHistoria h1 {
+        font-size: 1.8rem;
+        margin: 2rem 0 0 1rem;
+        line-height: 3rem;
     }
-    
+    #box_SerNatureza {
+        width: 40rem;
+        height: 22rem;
+    }
+
+    .sobre_img1 {
+        top: 18%;
+        width: 18rem;
+        height: 18rem;
+    }
+    #natureza p {
+        font-weight: 200;
+        font-size: 0.8rem;
+        line-height: 2;
+        width: 300px;
+    }
+
+    #natureza {
+        margin: 1rem 0rem 0 -20rem;
+        width: 300px;
+    }
+    #evidencias span{
+        font-size: 0.58rem;
+    }
+    #evidencias {
+        margin-top: 30rem;
+        height: 10rem;
+        gap: 7rem;
+    }
 }
-@media screen and (min-width: 500px) and (max-width: 700px) {
-    #conheçaNossaHistoria {
-display: none;
+@media screen and (max-width: 660px) {
+    .linha-vertical h6, #conheçaNossaHistoria p {
+        width: 400px;
+        margin-top: 1.5rem;
+        padding-left: 4rem;
+        font-size: 0.65rem;
     }
     #conheçaNossaHistoria h1 {
-display: none;
+        font-size: 1.5rem;
+        margin: 2rem 0 0 0rem;
+        left: 3rem;
+        line-height: 3rem;
+    }
+    #box_SerNatureza {
+        width: 28rem;
+        height: 22rem;
+    }
+    #destaque h4 {
+        margin: 1rem 0rem 0 -15rem;
+    }
+    .sobre_img1 {
+        top: 16%;
+        width: 14rem;
+        height: 12rem;
+    }
+    #natureza p {
+        font-weight: 200;
+        width: 150px;
+        color: white;
+        margin-top: 0;
+    }
 
+    #natureza {
+        margin: 0rem 0rem 0 10rem;
+        width: 250px;
+        padding-left: 7rem;
     }
-    .linha-vertical h6 {
-display: none;
+    #natureza h3 {
+        
+        font-size: 0.8rem;
     }
-    #conheçaNossaHistoria p{
-display: none;
-    }
-    #evidencias {
-        height: 18%;
-    }
-}
-
-@media screen and (min-width: 700px) and (max-width: 797px) {
-    .img2_txt {
-        right: 22rem;
-        width: 399px;
-        padding-top: -8rem;
-        font-size: 0.7rem;
-    }
-}
-
-@media screen and (min-width: 500px) and (max-width: 700px) {
-    .img2_txt {
-        right: 22rem;
-        width: 399px;
-        padding-top: -8rem;
-        font-size: 0.7rem;
-    }
-    #finalDestaque {
-        top: 243%;
-    }
-    img.sobre_img2{
-        display: none;
-    }
-    #evidencias {
-        margin-top: 35rem;
-        grid-template-columns: repeat(3, 20%);
-        gap: 2rem;
-        background: none;
-    }
-    #evidencias span {
+    #natureza h6 {
         font-size: 0.6rem;
-        font-weight: 800;
     }
-
-    .img2_txt {
-        right: 22rem;
-        width: 399px;
-        padding-top: -8rem;
-        font-size: 0.7rem;
+    #evidencias {
+        gap: 3rem;
     }
+    #destaque h4 {
+        margin: 1rem 0rem 0 -10rem;
+        font-size: 1.5rem;
+        width: 250px;
+    }
+    #destaque h5 {
+        margin: 1rem 0rem 0 -10rem;
+        font-size: 1rem;
 
+    }
 }
