@@ -141,6 +141,8 @@
 .back-pix0 {
   display: flex;
   justify-content: center;
+  gap: 70px;
+
 }
 
 .back-pix0 a {
@@ -152,20 +154,21 @@
   margin-top: 20%; 
   display: flex;
   justify-content: center;
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 25%; 
-  border-radius: 5px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
   font-size: 14px; 
   color: rgb(255, 255, 255);
-  background-color: #203f46;
-  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  background-color: #065f59;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
 .back-pix:hover {
   background-color: #088178;
   color: rgb(255, 255, 255);
-  font-weight: bold;
+  /* font-weight: bold; */
   transform: scale(1.1); 
 }
 

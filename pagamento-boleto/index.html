@@ -18,7 +18,7 @@
 
   <body>
     <section id="header">
-      <a href="#">
+      <a href="../index.html">
         <img src="../img/logoEcoDecor.png" class="logo" alt="EcoDecor Logo" />
       </a>
       <div id="menu-icon-hamburguer" class="fas fa-bars"></div>
@@ -42,7 +42,7 @@
         <li>
           <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
           <a href="cart.html"><i class="fa-solid fa-heart"></i></a>
-          <a href="user.html"><i class="fa-solid fa-user"></i></a>
+          <a href="../User/login.html"><i class="fa-solid fa-user"></i></a>
         </li>
       </ul>
     </section>
@@ -140,5 +140,15 @@
         <img src="../img/pay.png" />
     </div>
     </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          const menuIcon = document.getElementById("menu-icon-hamburguer");
+          const navbar = document.getElementById("navbar");
+  
+          menuIcon.addEventListener("click", function() {
+              navbar.classList.toggle("show");
+          });
+      });
+  </script>
   </body>
 </html>
