@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoDecor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../index.html">
+</head>
+<body>
+    <section id="header">
+        <a href="#">
+            <img src="../img/logoEcoDecor.png" class="logo" alt="EcoDecor Logo" />
+        </a>
+        <div id="menu-icon-hamburguer" class="fas fa-bars"></div>
+
+        <ul id="navbar">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="../../../pages/sobre.html">Sobre</a></li>
+            <li class="dropdown">
+                <a href="#">Categorias</a>
+                <ul class="submenu">
+                    <li><a href="../../../lista_produtos/sala/index.html">Sala</a></li>
+                    <li><a href="../../../lista_produtos/quarto/index.html">Quarto</a></li>
+                    <li><a href="../../../lista_produtos/escritorio/index.html">Escritório</a></li>
+                    <li><a href="../../../lista_produtos/jardim/index.html">Jardim</a></li>
+                    <li><a href="../../../lista_produtos/cozinha/index.html">Cozinha</a></li>
+                </ul>
+            </li>
+            <li><a href="/contato/contato.html">Contato</a></li>
+            <form id="search-form" action="search.html">
+                <input type="text" placeholder="Buscar produtos..." />
+            </form>
+            <li>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="cart.html"><i class="fa-solid fa-heart"></i></a>
+                <a href="user.html"><i class="fa-solid fa-user"></i></a>
+            </li>
+        </ul>
+    </section>
+    <main class="main-contentt">
+        <section class="confirmation-sectionnn">
+            <h1 class="confirmation-titleee">Obrigado por sua compra!</h1>
+            <p class="confirmation-textt">Seu pedido foi realizado com sucesso.</p>
+        </section>
+        <section class="order-details-sectionnn">
+            <h2 class="order-details-titleee">Detalhes do Pedido</h2>
+            <div class="product-detailsss">
+                <img class="product-imageee" src="../img/jardinDetalhes.png" alt="Imagem do Produto">
+                <div class="product-infooo">
+                    <h3 class="product-nameee">Nome do Produto Exemplo</h3>
+                    <p class="product-descriptionnn">O Jardim Suspenso para Varanda é uma peça confeccionada
+                        inteiramente de madeira, vertical, com design contemporâneo e
+                        inovador.</p>
+                    <p class="product-quantityyy">Quantidade: 1</p>
+                    <p class="product-priceee">Preço: R$ 166,46</p>
+                </div>
+            </div>
+            <div class="delivery-addresse">
+                <h3 class="address-titleee">Endereço</h3>
+                <p class="user-nameee">Entregar para Eduardo</p>
+                <p class="address-lineee">Rua Exemplo, 123</p>
+                <p class="address-neighborhooddd">Bairro Exemplo</p>
+                <p class="address-city-stateee">Cidade Exemplo - Estado Exemplo</p>
+                <p class="address-zip">CEP: 12345-678</p>
+            </div>
+            <div class="order-infooo">
+                <h3 class="order-info-titleee">Informações do Pedido</h3>
+                <p class="order-numberrr">Número do Pedido: 123456</p>
+                <p class="order-dateee">Data do Pedido: 14 de Junho de 2024</p>
+                <p class="payment-methoddd">Método de Pagamento: Cartão de Crédito</p>
+            </div>
+        </section>
+    </main>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const menuIcon = document.getElementById("menu-icon-hamburguer");
+            const navbar = document.getElementById("navbar");
+    
+            menuIcon.addEventListener("click", function() {
+                navbar.classList.toggle("show");
+            });
+        });
+    </script>
+</body>
+
+</html>

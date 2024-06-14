@@ -27,7 +27,7 @@
           <a href="#">Categorias</a>
           <ul class="submenu">
             <li><a href="../lista_produtos/quarto/index.html">Sala</a></li>
-            <li><a href="#">Quarto</a></li>
+            <li><a href="../lista_produtos/quarto/index.html">Quarto</a></li>
             <li>
               <a href="../lista_produtos/escritorio/index.html">Escritório</a>
             </li>
@@ -166,5 +166,15 @@
     </footer>
 
     <script src="./script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          const menuIcon = document.getElementById("menu-icon-hamburguer");
+          const navbar = document.getElementById("navbar");
+  
+          menuIcon.addEventListener("click", function() {
+              navbar.classList.toggle("show");
+          });
+      });
+  </script>
   </body>
 </html>

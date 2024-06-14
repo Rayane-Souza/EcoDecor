@@ -1,3 +1,4 @@
+
 .topo-fpagamento {
   margin: 0;
   margin-left: 4%;
@@ -115,13 +116,13 @@
 
 #botao-fpagamento {
   display: inline-flex;
-  padding: 2px;
+  padding: 4px;
   line-height: 20px;
   border-radius: 5px;
   font-size: 12px;
   color: rgb(255, 255, 255);
-  background-color: #203f46;
-  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  background-color: #065f59;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
   vertical-align: middle;
   margin-left: 2%;
 }
@@ -129,7 +130,7 @@
 #botao-fpagamento:hover {
   background-color: #088178;
   color: rgb(255, 255, 255);
-  font-weight: bold;
+  /* font-weight: bold; */
   transform: scale(1.2);
 }
 
@@ -154,11 +155,11 @@
 .b1-fpagamento {
   width: 120px;
   height: 50px;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 15px;
   color: rgb(255, 255, 255);
-  background-color: #203f46;
-  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  background-color: #065f59;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
   vertical-align: middle;
   margin-left: 6%;
 }
@@ -166,24 +167,29 @@
 .b1-fpagamento:hover {
   background-color: #088178;
   color: rgb(255, 255, 255);
-  font-weight: bold;
+  /* font-weight: bold; */
   transform: scale(1.2);
 }
 
 .b2-fpagamento {
   width: 120px;
   font-size: 15px;
-  border-radius: 5px;
+  border-radius: 10px;
   color: rgb(255, 255, 255);
-  background-color: #203f46;
-  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  background-color: #065f59;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
 .b2-fpagamento:hover {
   background-color: #088178;
   color: rgb(255, 255, 255);
-  font-weight: bold;
+  /* font-weight: bold; */
   transform: scale(1.2);
+}
+
+.fa-brands, .fa-credit-card, .fa-barcode{
+  color:#088178;
+  margin-left: 20px;
 }
 
 @media (max-width: 768px) {

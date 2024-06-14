@@ -526,6 +526,7 @@ img{
     color: #fff;
     cursor: pointer;
     transition: all 0.3s ease;
+    border-radius: 10px;
 }
 .btn-groups button .fas{
     margin-right: 8px;
@@ -536,15 +537,13 @@ img{
     margin-right: 8px;
 }
 .add-cart-btn:hover{
-    background-color: #fff;
-    color: #065f59;
+    background-color: #088178;
 }
 .buy-now-btn{
     background-color: #000;
     border: 2px solid #000;
 }
 .buy-now-btn:hover{
-    background-color: #fff;
     color: #000;
 }
 
@@ -664,12 +663,12 @@ img{
 }
 
 .cards-container a {
-    text-decoration: none; /* Remove sublinhado dos links */
-    color: inherit; /* Herda a cor do texto pai */
+    text-decoration: none; 
+    color: inherit; 
   }
   
   .cards-container a .box {
-    display: block; /* Garante que todo o card seja clicável */
+    display: block; 
   }
   
 

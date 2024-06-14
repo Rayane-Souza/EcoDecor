@@ -1,0 +1,143 @@
+.main-contentt {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000;
+
+}
+
+.confirmation-sectionnn {
+    text-align: center;
+}
+
+.confirmation-titleee {
+    color: #065f59;
+    font-size: 2rem;
+}
+
+.confirmation-textt {
+    margin: 10px 0 20px;
+    color: #000;
+}
+
+.order-details-sectionnn {
+    margin-top: 20px;
+    color: #000;
+    
+
+}
+
+.order-details-titleee {
+    border-bottom: 2px solid #065f59;
+    margin-bottom: 2px;
+    padding-bottom: 5px;
+    color: #065f59;
+    font-size: 3rem;
+
+}
+
+.product-detailsss {
+    display: flex;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.product-imageee {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.product-infooo {
+    flex-grow: 1;
+    color: #000;
+
+}
+
+.product-nameee, .address-titleee, .order-info-titleee {
+    margin: 0 0 5px;
+    color: #000;
+
+}
+
+.product-descriptionnn, .product-quantityyy, .product-priceee,
+.user-nameee, .address-lineee, .address-neighborhooddd, .address-city-stateee, .address-zip,
+.order-numberrr, .order-dateee, .payment-methoddd {
+    margin: 5px 0;
+    color: #000;
+
+}
+
+.delivery-addresse, .order-infooo {
+    margin-top: 20px;
+    color: #000;
+
+}
+
+.order-actionsss {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.order-action-buttonnn {
+    background-color: #065f59;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.order-action-buttonnn:hover {
+    background-color: #065f59;
+}
+
+@media (max-width: 768px) {
+    .main-contentt {
+        padding: 10px;
+    }
+
+    .confirmation-titleee {
+        font-size: 1.5rem;
+    }
+
+    .order-details-titleee {
+        font-size: 1.5rem;
+    }
+
+    .product-detailsss {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-imageee {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .product-infooo {
+        text-align: center;
+    }
+
+    .order-action-buttonnn {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .confirmation-titleee {
+        font-size: 1.2rem;
+    }
+
+    .order-details-titleee {
+        font-size: 1.2rem;
+    }
+
+    .order-action-buttonnn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
