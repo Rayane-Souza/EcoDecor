@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Formas de Pagamento</title>
+  </head>
+  <body>
+    <section id="header">
+      <a href="../index.html">
+        <img src="../img/logoEcoDecor.png" class="logo" alt="EcoDecor Logo" />
+      </a>
+      <div id="menu-icon-hamburguer" class="fas fa-bars"></div>
+      <ul id="navbar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/sobre.html">Sobre</a></li>
+        <li class="dropdown">
+          <a href="#">Categorias</a>
+          <ul class="submenu">
+            <li><a href="../lista_produtos/quarto/index.html">Sala</a></li>
+            <li><a href="#">Quarto</a></li>
+            <li>
+              <a href="../lista_produtos/escritorio/index.html">Escritório</a>
+            </li>
+            <li>
+              <a href="../lista_produtos/jardim/index.html">Jardim</a>
+            </li>
+            <li>
+              <a href="../lista_produtos/cozinha/index.html">Cozinha</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="/contato/contato.html">Contato</a></li>
+        <form id="search-form" action="search.html">
+          <input type="text" placeholder="Buscar produtos..." />
+        </form>
+        <li>
+          <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href="cart.html"><i class="fa-solid fa-heart"></i></a>
+          <a href="user.html"><i class="fa-solid fa-user"></i></a>
+        </li>
+      </ul>
+    </section>
+
+    <fieldset class="topo-fpagamento">
+      <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      <span>Minha Cesta</span>
+    </fieldset>
+
+    <div class="container-fpagamento">
+      <div class="form-fpagamento">
+        <h2>FORMA DE PAGAMENTO</h2>
+
+        <div class="col-sm-10">
+          <div class="form-check7" for="pix-fpagamento">
+            <a href="../pagamento_pix/index.html" for="pix-fpagamento">
+              <label class="form-check-label" for="pix-fpagamento"> PIX </label
+              ><i class="fa-brands fa-pix"></i
+            ></a>
+          </div>
+
+          <div class="form-check7">
+            <a href="../pagamento_cartao.credito/index.html">
+              <label class="form-check-label" for="cartao-fpagamento"
+                >CARTÃO DE CRÉDITO </label
+              ><i class="fa-regular fa-credit-card"></i
+            ></a>
+          </div>
+
+          <div class="form-check7">
+            <a href="../pagamento-boleto/index.html">
+              <label class="form-check-label" for="boleto-fpagamento">
+                BOLETO BANCÁRIO </label
+              ><i class="fa-solid fa-barcode"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-fpagamento">
+        <h3>Resumo do Pedido</h3>
+
+        <div class="img-fpagamento">
+          <img src="../img/jardinDetalhes.png" />
+
+          <div class="controle-fpagamento">
+            <legend>Jardim Suspenso para Varanda</legend>
+            <p>
+              O Jardim Suspenso para Varanda é uma peça confeccionada <br />
+              inteiramente de madeira, vertical, com design contemporâneo e
+              inovador.
+            </p>
+          </div>
+        </div>
+        <p id="cupom-fpagamento">Digite um cupom</p>
+        <input type="text" />
+        <button id="botao-fpagamento">Aplicar</button>
+        <div class="total-fpagamento">
+          <span>Quantidade: 01</span>
+          <br />
+          <span>Subtotal: R$ 116,46</span>
+          <span>Frete: R$ 50,00</span>
+          <span>Total: R$ 166,46</span>
+        </div>
+        <div class="botoes-fpagamento">
+          <a href="../pages/detalhePoduto.html"
+            ><button class="b1-fpagamento">Voltar</button></a
+          >
+          <a href="../index.html"
+            ><button class="b2-fpagamento">Continuar comprando</button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="../img/logoEcoDecor.png" alt="" />
+        <h4>Contato</h4>
+        <p><strong>Endereço: </strong> 245 Teste Endereco, Rua 32, Não sei</p>
+        <p><strong>Telefone:</strong> 10:00 - 18:00, Seg - Sáb</p>
+        <div class="follow">
+          <h4>Siga-nos</h4>
+          <div class="iconn">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>Sobre</h4>
+        <a href="#">Sobre nós</a>
+        <a href="#">Serviços</a>
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos e Condições</a>
+        <a href="#">Carreiras</a>
+      </div>
+      <div class="col">
+        <h4>Minha Conta</h4>
+        <a href="#">Inscrever-se</a>
+        <a href="#">Login</a>
+        <a href="#">Minha Conta</a>
+        <a href="#">Pedidos</a>
+        <a href="#">Ajuda</a>
+      </div>
+      <div class="col install">
+        <h4>Instale o App</h4>
+        <p>Na App Store ou Google Play</p>
+        <div class="row">
+          <img src="../img/app.jpg" />
+          <img src="../img/play.jpg" />
+        </div>
+        <p>Formas de Pagamento Seguras</p>
+        <img src="../img/pay.png" />
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

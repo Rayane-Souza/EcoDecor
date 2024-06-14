@@ -1,0 +1,235 @@
+.topo-fpagamento {
+  margin: 0;
+  margin-left: 4%;
+  display: inline-block;
+  justify-content: center;
+  border: none;
+}
+
+.topo-fpagamento a {
+  font-size: 35px;
+  color: darkslategrey;
+}
+
+.topo-fpagamento span {
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: 600;
+  color: black;
+}
+
+.container-fpagamento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3%;
+  margin-bottom: 10%;
+}
+
+.form-fpagamento {
+  margin-left: 3%;
+}
+
+.form-fpagamento h2 {
+  margin: 0;
+  color: black;
+  margin-left: 8%;
+  font-size: xx-large;
+}
+
+.form-check7 {
+  border: 1px solid black;
+  margin-top: 5%;
+  margin-left: 3%;
+  padding: 10px;
+  width: 90%;
+  cursor: pointer;
+  vertical-align: middle;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+.form-check7 a {
+  text-decoration: none;
+  color: black;
+}
+
+.form-check7 i {
+  font-size: 40px;
+
+
+
+}
+
+.info-fpagamento h3 {
+  margin: 0;
+  color: black;
+  font-size: x-large;
+  margin-top: 2%;
+}
+
+.img-fpagamento {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin-top: 4%;
+}
+
+.info-fpagamento img {
+  width: 80%;
+}
+
+.controle-fpagamento {
+  margin: 0;
+  display: block;
+}
+
+.controle-fpagamento legend {
+  font-weight: 600;
+}
+
+.info-fpagamento p {
+  font-size: 16px;
+  color: black;
+}
+
+#qtd-fpagamento {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#cupom-fpagamento {
+  margin: 0;
+  margin-top: 2%;
+  font-size: small;
+  font-weight: 600;
+}
+
+#cupom-fpagamento label {
+  height: 16px;
+  margin-top: 3%;
+}
+
+#botao-fpagamento {
+  display: inline-flex;
+  padding: 2px;
+  line-height: 20px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  background-color: #203f46;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  vertical-align: middle;
+  margin-left: 2%;
+}
+
+#botao-fpagamento:hover {
+  background-color: #088178;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  transform: scale(1.2);
+}
+
+.total-fpagamento {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.total-fpagamento span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.botoes-fpagamento {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15%;
+  padding-right: 10%;
+}
+
+.b1-fpagamento {
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  background-color: #203f46;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  vertical-align: middle;
+  margin-left: 6%;
+}
+
+.b1-fpagamento:hover {
+  background-color: #088178;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  transform: scale(1.2);
+}
+
+.b2-fpagamento {
+  width: 120px;
+  font-size: 15px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  background-color: #203f46;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.b2-fpagamento:hover {
+  background-color: #088178;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .form-fpagamento h2 {
+    font-size: large;
+  }
+  .info-fpagamento h3 {
+    font-size: medium;
+  }
+  .controle-fpagamento legend {
+    font-size: 14px;
+  }
+  .controle-fpagamento p {
+    font-size: 10px;
+  }
+  .b1-fpagamento {
+    width: 70px;
+    height: 40px;
+  }
+  .b2-fpagamento {
+    width: 70px;
+    height: 40px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .form-fpagamento h2 {
+    font-size: small;
+  }
+  .info-fpagamento h3 {
+    font-size: x-small;
+  }
+  .controle-fpagamento legend {
+    font-size: 8px;
+  }
+  .controle-fpagamento p {
+    font-size: 10px;
+  }
+  .b1-fpagamento {
+    width: 40px;
+    height: 28px;
+    font-size: 8px;
+  }
+  .b2-fpagamento {
+    width: 45px;
+    height: 30px;
+    font-size: 7px;
+  }
+}

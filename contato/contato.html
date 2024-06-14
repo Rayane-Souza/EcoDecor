@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Contato</title>
+</head>
+
+<body>
+    <section id="header">
+        <a href="#">
+            <img src="../img/logoEcoDecor.png" class="logo" alt="EcoDecor Logo" />
+        </a>
+        <div id="menu-icon-hamburguer" class="fas fa-bars"></div>
+        <ul id="navbar">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../../../pages/sobre.html">Sobre</a></li>
+            <li class="dropdown">
+                <a href="#">Categorias</a>
+                <ul class="submenu">
+                    <li><a href="../../../lista_produtos/sala/index.html">Sala</a></li>
+                    <li><a href="../../../lista_produtos/quarto/index.html">Quarto</a></li>
+                    <li><a href="../../../lista_produtos/escritorio/index.html">Escritório</a></li>
+                    <li><a href="../../../lista_produtos/jardim/index.html">Jardim</a></li>
+                    <li><a href="../../../lista_produtos/cozinha/index.html">Cozinha</a></li>
+                </ul>
+            </li>
+            <li><a href="/contato/contato.html">Contato</a></li>
+            <form id="search-form" action="search.html">
+                <input type="text" placeholder="Buscar produtos..." />
+            </form>
+            <li>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="cart.html"><i class="fa-solid fa-heart"></i></a>
+                <a href="user.html"><i class="fa-solid fa-user"></i></a>
+            </li>
+        </ul>
+    </section>
+
+    <div class="contato1">
+        <section class="contato">
+            <h2 class="contato-titulo">Contato</h2>
+            <form class="api-email" action="https://api.staticforms.xyz/submit" method="post">
+                <label class="rotulo">Nome</label>
+                <input class="campo" type="name" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                <label class="rotulo">E-mail</label>
+                <input class="campo" type="email" name="email" placeholder="Digite seu e-mail" autocomplete="off" required>
+                <label class="rotulo">Mensagem</label>
+                <textarea class="mensagem" name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                <button class="enviar-contato" type="submit">Enviar</button>
+    
+                <input type="hidden" name="accessKey" value="43f6c00b-b0af-424c-b419-181ebf1cc1aa">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/contato/agradecimento.html">
+            </form>
+        </section>
+    </div>
+
+    <footer class="section-p1">
+        <div class="col">
+          <img class="logo" src="../img/logoEcoDecor.png" alt="" />
+          <h4>Contato</h4>
+          <p><strong>Endereço: </strong> 245 Teste Endereco, Rua 32, Não sei</p>
+          <p><strong>Telefone:</strong> 10:00 - 18:00, Seg - Sáb</p>
+          <div class="follow">
+            <h4>Siga-nos</h4>
+            <div class="iconn">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <h4>Sobre</h4>
+          <a href="#">Sobre nós</a>
+          <a href="#">Serviços</a>
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Termos e Condições</a>
+          <a href="#">Carreiras</a>
+        </div>
+        <div class="col">
+          <h4>Minha Conta</h4>
+          <a href="#">Inscrever-se</a>
+          <a href="#">Login</a>
+          <a href="#">Minha Conta</a>
+          <a href="#">Pedidos</a>
+          <a href="#">Ajuda</a>
+        </div>
+        <div class="col install">
+          <h4>Instale o App</h4>
+          <p>Na App Store ou Google Play</p>
+          <div class="row">
+            <img src="../img/app.jpg" />
+            <img src="../img/play.jpg" />
+          </div>
+          <p>Formas de Pagamento Seguras</p>
+          <img src="../img/pay.png" />
+      </div>
+      </footer>
+  
+</body>
+
+</html>

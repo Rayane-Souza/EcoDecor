@@ -1,0 +1,870 @@
+@import '../lista_produtos/styles.css';
+@import '../styles/sobre.css';
+
+body {
+    background: #F6F6F6;
+}
+
+section #detalhes_produto {
+    background: white;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    padding: 2rem 01rem;
+    width: 1550px;
+}
+
+#detalhes_produto {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 40% 50%;
+    gap: 2rem;
+    max-width: 100%;
+}
+
+.containerPopulares,
+.box {
+    margin: 0 auto;
+}
+
+.img-container li,
+img {
+    list-style: none;
+    border-radius: 0.5rem;
+}
+
+.cep0 aside {
+    position: absolute;
+    display: flex;
+    margin: -2.5rem 0 0 2rem;
+    color: #252b2b;
+}
+
+.cep0 p {
+    color: #065f59;
+}
+
+.cep0 span {
+    position: absolute;
+    display: flex;
+    margin: 0.9rem 0 0 5rem;
+}
+
+.cep0 {
+    position: absolute;
+    display: flex;
+    margin: 3.5rem 0 0 0;
+    gap: 24rem;
+}
+
+.transitCar {
+    width: 25px;
+}
+
+form #endereco {
+    background: #e4e9ea00;
+    border: none;
+    border-style: none;
+    display: inline-block;
+    outline: 0;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    margin: 3.2rem 0 0 25.7rem;
+    width: 18rem;
+    font-size: 0.55rem;
+    height: 2rem;
+    gap: 16rem;
+    align-items: center;
+}
+
+form #complementoCep {
+    background: #e4e9ea00;
+    border: none;
+    border-style: none;
+    display: inline-block;
+    outline: 0;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    margin: 4.1rem 0 0 25.7rem;
+    width: 18rem;
+    font-size: 0.55rem;
+    height: 2rem;
+    gap: 16rem;
+    align-items: center;
+}
+
+.cepInput {
+    border: 2px solid #ccc;
+    display: inline-block;
+    padding: 4px;
+}
+
+.txtPopulares {
+    font-size: 1.5rem;
+    padding-left: 2.5rem;
+}
+
+form #cepInutTxt {
+    width: 14rem;
+    height: 2rem;
+    background: #e4e9ea00;
+    border: none;
+    border-style: none;
+    display: inline-block;
+    outline: 0;
+
+}
+
+form #pesquisarCep {
+    background: royalblue;
+    border: none;
+    color: #fff;
+    padding: 4px 10px;
+    pointer-events: none;
+}
+
+#destaqueImg ul {
+    margin-top: 1.12rem;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    gap: 1.20rem;
+    list-style: none;
+}
+
+.product-div-right {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(360deg, white 25%, #E4E9EA 70%);
+
+}
+
+#posicapD {
+    margin: -2.2rem 0 0 34rem;
+}
+
+.product-name {
+    font-size: 26px;
+    margin-bottom: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    color: #065f59;
+}
+
+.product-description {
+    color: #4d5857;
+    width: 670px;
+}
+
+.product-price {
+    font-weight: 700;
+    font-size: 24px;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.product-rating {
+    display: flex;
+    align-items: center;
+}
+
+.product-rating1 {
+    display: flex;
+    align-items: center;
+}
+
+.mstar-icon {
+    list-style: none;
+    cursor: pointer;
+    color: #ffe500;
+}
+
+.mstar-icon0 {
+    list-style: none;
+    cursor: pointer;
+    color: #ffe500;
+    margin-top: -0.5rem;
+}
+
+.mstar-icon0::before {
+    content: "\2605";
+    font-size: 2rem;
+}
+
+.mstar-icon::before {
+    content: "\2605";
+    font-size: 2rem;
+}
+
+.mstar-icon.ativo~.mstar-icon::before {
+    content: "\2606";
+}
+
+.product-rating:hover .mstar-icon::before {
+    content: "\2605";
+}
+
+.mstar-icon:hover~.mstar-icon::before {
+    content: "\2606";
+}
+
+.btn-groups {
+    display: grid;
+    grid-template-columns: 0.5fr;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+#hero button {
+    background-color: #088178;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.parcelamento {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 0.5rem;
+    width: 100%;
+    background: #434b4b2a;
+    background-size: cover, cover;
+    position: relative;
+}
+
+.txtDetalhes {
+    color:#065f59;
+    font-size: 4rem;
+    margin: 8rem 0 0 9rem;
+    padding-left: 4rem;
+    text-shadow: 1.8px 0.2px;
+
+}
+
+.detalhesgrid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "p img";
+    color:#065f59;
+    width: 1500px;
+
+}
+.dttxt{
+    color: #065f59;
+}
+.detalhesgrid img {
+    margin: 0 auto;
+    margin-top: 5rem;
+    border-radius: 0.5rem;
+}
+
+.detalhesgrid p {
+    padding-top: 5rem;
+    font-size: 1.5rem;
+    width: 450px;
+}
+
+#avaliacaoscore {
+    margin: 0 auto;
+}
+
+#detalhamento img {
+    width: 600px;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.txtparcelamento {
+    color: #065f59;
+    margin-top: 3rem;
+}
+
+.parcelamento p {
+    font-size: 0.8rem;
+    line-height: 0;
+    color: #065f59;
+    margin-left: 2rem;
+}
+
+#hero button:hover {
+    background-color: #065f59;
+}
+
+#controlsScore {
+    color: #065f59;
+    font-size: 1rem;
+    margin: 0.5rem 1rem 0 1rem;
+}
+
+#contador0 {
+    display: flex;
+    gap: 15.5rem;
+}
+
+.scoreboard--score {
+    align-content: center;
+    margin: 0 1rem 0 1rem;
+}
+
+.scoreboard--controls {
+    display: flex;
+}
+
+.scoreboard {
+    border: 1px solid#065f59;
+    background: #eee;
+}
+
+.scoreboard--controls-button {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.scoreboard--controls-button:hover {
+    background: #ddd;
+}
+
+.scoreboard--controls-button:active {
+    background: #ccc;
+}
+
+.user0 {
+    padding-top: 5rem;
+    display: flex;
+    margin: 0 1rem 0 10rem;
+    align-items: center;
+}
+
+.user0 h6 {
+    font-size: 1.4rem;
+}
+
+.user0 img {
+    margin-right: 1rem;
+    width: 40px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.txtAvaliacao {
+    margin: 0 1rem 8rem 13rem;
+}
+
+.txtAvaliacao p {
+    width: 1000px;
+    color: #065f59;
+    font-size: 1.4rem;
+    letter-spacing: 4px;
+}
+
+.star0 {
+    margin: -1rem 0 0 0;
+}
+
+.linha1 {
+    position: fixed;
+    margin: -18rem 0 0 50%;
+    position: absolute;
+    height: 1300px;
+    border-left: 2px solid #065f59;
+    transform: rotate(90deg);
+}
+
+.linha0 {
+    position: fixed;
+    margin: -63rem 0 0 50%;
+    position: absolute;
+    height: 1300px;
+    border-left: 2px solid #065f59;
+    transform: rotate(90deg);
+}
+
+@media screen and (min-width: 1160px) and (max-width: 1800px) {
+    .detalhesgrid p {
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1160px) and (max-width: 1513px) {
+    .product-description {
+        width: 500px;
+    }
+
+    #posicapD {
+        margin: -2.2rem 0 0 20rem;
+
+    }
+    .detalhesgrid {
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        margin: 0;
+        display: inline-block;
+        width: 1100px;
+    }
+
+    .detalhesgrid p {
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+    .cep0{
+        gap: 18.7rem;
+    }
+    form #endereco{
+        margin-left: 20.5rem;
+    }
+    form #complementoCep {
+        margin-left: 20.5rem;
+    }
+    .cep0 span {
+        display: none;
+    }
+    .cepInput {
+        padding: 1px;
+    }
+    form #cepInutTxt {
+        width: 10rem;
+        height: 1rem;
+        font-size: 0.6rem;
+    }
+    #controlsScore{
+        font-size: 0.8rem;
+    }
+    .scoreboard--controls-button{
+        padding: 0.35rem 1.11rem;
+        font-size: 0.8em;
+    }
+    .transitCar {
+        width: 20px;
+    }
+    .cep0 p {
+        font-size: 0.8rem;
+    }
+    #contador0 {
+        gap: 12rem;
+    }
+    .product-price {
+        font-size: 17px;
+    }
+    .txtfrete span{
+        font-size: 0.8rem ;
+    }
+    .detalhesgrid p {
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        margin: 0 auto;
+        padding-top: 2rem;
+    }
+    #detalhamento img {
+        width: 400px;
+        margin: 0;
+        
+    }
+
+}
+
+@media screen and (min-width: 948px) and (max-width: 1184px) {
+    .product-description {
+        width: 500px;
+    }
+
+    #posicapD {
+        margin: -2.2rem 0 0 23rem;
+
+    }
+
+    .detalhesgrid {
+        padding-top: 2rem;
+        width: 600px;
+        font-size: 1rem;
+        margin: 0 auto;
+        display: inline-block;
+    }
+    .txtDetalhes{
+        margin-left: 0; 
+        font-size: 24px;
+    }
+    #detalhamento img {
+        display: none;
+    }
+    .detalhesgrid p{
+        padding-top: 0;
+        margin: 0;
+        width: 920px;
+        padding-left: 3rem;
+    }
+    .avSpan,
+    span {
+        font-size: 0.8rem;
+    }
+    #contador0 {
+        gap: 1rem;
+    }
+    .product-price {
+        padding-top: 0.5rem;
+        font-size: 14px;
+    }
+    .scoreboard--controls-button{
+        padding: 0.35rem 1.11rem;
+        font-size: 0.8em;
+    }
+    .txtfrete span{
+        font-size: 0.01rem ;
+    }
+    form #endereco{
+        margin: 2rem 0 0 13.7rem;
+    }
+    form #complementoCep {
+        margin: 2.7rem 0 0 13.7rem;
+
+    }
+    .cep0 span {
+        display: none;
+    }
+    .cepInput {
+        padding: 1px;
+    }
+    form #cepInutTxt {
+        width: 10rem;
+        height: 1rem;
+        font-size: 0.6rem;
+    }
+    #controlsScore{
+        font-size: 0.8rem;
+    }
+    .scoreboard--controls-button{
+        padding: 0.35rem 1.11rem;
+        font-size: 0.8em;
+    }
+    .transitCar {
+        width: 20px;
+    }
+    .cep0 p {
+        font-size: 0.8rem;
+    }
+    #contador0 {
+        gap: 12rem;
+    }
+    .product-price {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 871px) and (max-width: 1074px) {
+    .product-description {
+        width: 400px;
+    }
+
+    #posicapD {
+        margin: -2.2rem 0 0 20rem;
+
+    }
+    #detalhamento img {
+        display: none;
+    }
+    .txtDetalhes{
+        margin-left: 0; 
+        width: 400px;
+        font-size: 20px;
+    }
+    .detalhesgrid p{
+        padding-top: 1rem;
+        margin: 0;
+        font-size: 1rem;
+        width: 820px;
+        padding-left: 3rem;
+    }
+    .mstar-icon0::before {
+        content: "\2605";
+        font-size: 1.9rem;
+    }
+    .parcelamento{
+        display: none;
+    }
+    .cep0{
+        display: inline-block;
+        gap: 16rem;
+    }
+    .transitCar {
+        display: none;
+    }
+    .txtparcelamento{
+        display: none;
+    }
+    .txtfrete span{
+        display: none ;
+    }
+    #contador0{
+        gap: 5rem;
+    }
+    #controlsScore {
+        font-size: 0.7em;
+        margin: 0.2rem 1rem 0 1rem;
+    }
+    .scoreboard {
+        height: 1.4rem;
+    }
+    .scoreboard--controls-button {
+        font-size: 0.8em;
+        padding: 0.2rem 0.33rem;
+        height: 1rem;
+    }
+    .cep0 span {
+        font-size: 0.04rem;
+    }
+    .product-price {
+        font-size: 14px;
+    }
+    form #cepInutTxt {
+        width: 10rem;
+        height: 1rem;
+        font-size: 0.6rem;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 871px) {
+    #detalhamento img {
+        display: none;
+    }
+    .txtDetalhes{
+        display: none;
+    }
+    .detalhesgrid p{
+        display: none;
+    }
+}
+@media screen and (min-width: 1100px) and (max-width: 1451px) {
+    .txtDetalhes{
+        font-size: 1.8rem;
+    }
+    .linha1 {
+        height: 1000px;
+        margin: -8rem 0 0 50%;
+    }
+    .linha0 {
+        display: none;
+    }
+    .txtAvaliacao p {
+        font-size: 1rem;
+        width: 580px;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1451px) {
+    .linha1 {
+        height: 800px;
+        margin: -2rem 0 0 50%;
+    }
+    .linha0 {
+        display: none;
+    }
+    .txtAvaliacao p {
+        font-size: 1rem;
+        width: 580px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 1451px) {
+    #avaliacaoscore{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 725px) and (max-width: 1160px) {
+    .parcelamento{
+        display: none;
+    }
+    .cep0{
+        display: inline-block;
+    }
+    .txtparcelamento{
+        display: none;
+    }
+    .btn-groups {
+        margin-top: 6rem;
+    }
+    .txtfrete span{
+        display: none;
+    }
+    .txtfrete p{
+        display: none;
+    }
+    form #cepInutTxt {
+        width: 10rem;
+        height: 1rem;
+        font-size: 0.6rem;
+    }
+}
+@media screen and (min-width: 725px) and (max-width: 987px) {
+    .product-description {
+        width: 320px;
+    }
+
+    .avSpan,
+    span {
+        font-size: 0.6rem;
+    }
+
+    .mstar-icon0::before {
+        content: "\2605";
+        font-size: 1.8rem;
+    }
+
+    #posicapD {
+        margin: -1.7rem 0 0 12rem;
+
+    }
+
+    #contador0 {
+        gap: 4rem;
+    }
+    .parcelamento{
+        display: none;
+    }
+    .txtfrete span{
+        display: none;
+    }
+    .txtfrete p{
+        display: none;
+    }
+    form input#endereco{
+        width: 200px;
+        margin: 3.8rem 0 0 1.7rem;
+    }
+    form #complementoCep {
+        width: 300px;
+        margin: 4.4rem 0 0 1.7rem;
+
+    }
+    .txtfrete span{
+        font-size: 0.01rem;
+    }
+    .transitCar {
+        display: none;
+    }
+    #controlsScore {
+        font-size: 0.7em;
+        margin: 0.2rem 1rem 0 1rem;
+    }
+    .scoreboard {
+        height: 1.4rem;
+    }
+    .scoreboard--controls-button {
+        font-size: 0.8em;
+        padding: 0.2rem 0.33rem;
+        height: 1rem;
+    }
+    .product-price {
+        font-size: 0.85rem;
+    }
+    
+}
+
+@media screen and (min-width: 500px) and (max-width: 725px) {
+    section #detalhes_produto {
+        display: inline-block;
+    }
+    .product-name {
+        font-size: 0.8rem;
+    }
+    .product-price {
+        font-size: 0.84rem;
+    }
+    #destaqueImg ul {
+        position: absolute;
+        grid-template-columns: 19% 19% 19%;
+        justify-content: center;
+        padding-top: 3rem;
+
+    } 
+    #imgPrincipal{
+        width: 100%;
+        height: 100%;
+    }
+    .product-description {
+        width: 420px;
+        font-size: 0.5rem;
+        margin-top: 8rem;
+    }
+    .parcelamento{
+        display: none;
+    }
+    .txtfrete span{
+        display: none;
+    }
+    .txtfrete p{
+        display: none;
+    }
+    #detalhes_produto {
+        grid-template-columns: 30% 35%;
+    }
+    .avSpan{
+        font-size: 0.5rem;
+    }
+    #posicapD {
+        margin: -1.2rem 0 0 5rem;
+
+    }
+    .mstar-icon0::before {
+        content: "\2605";
+        font-size: 1.5rem;
+    }
+    .txtfrete span{
+        display: none;
+    }
+    .txtfrete p{
+        display: none;
+    }
+    .txtparcelamento{
+        display: none;
+    }
+    form #endereco{
+        margin: 1.8rem 0 0 10.7rem;
+    }
+    form #complementoCep {
+        margin: 2.8rem 0 0 10.7rem;
+
+    }
+    .txtfrete span{
+        font-size: 0.01rem;
+    }
+    .transitCar {
+        display: none;
+    }
+    #controlsScore {
+        font-size: 0.7em;
+        margin: 0.2rem 1rem 0 1rem;
+    }
+    .scoreboard {
+        height: 1.4rem;
+    }
+    .scoreboard--controls-button {
+        font-size: 0.8em;
+        padding: 0.2rem 0.33rem;
+        height: 1rem;
+    }
+    .product-price {
+        font-size: 0.85rem;
+    }
+    .cep0{
+        display: inline-block;
+        gap: 16rem;
+    }
+    form #cepInutTxt {
+        width: 5rem;
+        height: 1rem;
+        font-size: 0.6rem;
+    }
+    .btn-groups{
+        margin-top: 5rem;
+        }
+}
