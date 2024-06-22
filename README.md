@@ -45,29 +45,42 @@ by right-clicking the HTML file and selecting "Open with" or "Open with live ser
 ```
 ## Authors
 
-Rayane Souza<br>
-<a href="https://www.linkedin.com/in/rayanekelly/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
-</a><br>
+<table>
+  <tr>
+    <td>
+      Rayane Souza<br>
+      <a href="https://www.linkedin.com/in/rayanekelly/" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+      </a>
+    </td>
+    <td>
+      Rogério Melo<br>
+      <a href="https://www.linkedin.com/in/rogerio-melo-7030824a/" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+      </a>
+    </td>
+    <td>
+      Ana Beatriz Rodrigues<br>
+      <a href="https://www.linkedin.com/in/beatriz-rodriguesx/" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Ana Beatriz Silva<br>
+      <a href="https://www.linkedin.com/in/anabeatrizdsilva/" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+      </a>
+    </td>
+    <td>
+      Luiz Sacramento<br>
+      <a href="https://www.linkedin.com/in/luizssouza/" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+      </a>
+    </td>
+  </tr>
+</table>
 
-Rogério Melo<br>
-<a href="https://www.linkedin.com/in/rogerio-melo-7030824a/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
-</a><br>
-
-Ana Beatriz Rodrigues<br>
-<a href="https://www.linkedin.com/in/beatriz-rodriguesx/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
-</a><br>
-
-Ana Beatriz Silva<br>
-<a href="https://www.linkedin.com/in/anabeatrizdsilva/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
-</a><br>
-
-Luiz Sacramento<br>
-<a href="https://www.linkedin.com/in/luizssouza/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
-</a>
 
 
